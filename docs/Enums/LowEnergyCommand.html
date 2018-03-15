@@ -1,0 +1,1831 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LowEnergyCommand Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Enum/LowEnergyCommand" class="dashAnchor"></a>
+
+    <a title="LowEnergyCommand Enumeration Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          Bluetooth Docs
+        </a>
+         (65% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/PureSwift/Bluetooth">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">Bluetooth Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      LowEnergyCommand Enumeration Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ATTAttributePermission.html">ATTAttributePermission</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ATTError.html">ATTError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ATTOpcode.html">ATTOpcode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ATTOpcodeType.html">ATTOpcodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/AdvertisingChannelHeader.html">AdvertisingChannelHeader</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/BluetoothUUID.html">BluetoothUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIError.html">HCIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent.html">HCIGeneralEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent/CommandCompleteParameter.html">– CommandCompleteParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent/CommandStatusParameter.html">– CommandStatusParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent/RemoteNameRequestCompleteParameter.html">– RemoteNameRequestCompleteParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent/LowEnergyMetaParameter.html">– LowEnergyMetaParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIOpcodeGroupField.html">HCIOpcodeGroupField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIStatus.html">HCIStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIVersion.html">HCIVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LinkControlCommand.html">LinkControlCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LinkControlCommand/InquiryParameter.html">– InquiryParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LinkControlCommand/RemoteNameRequestParameter.html">– RemoteNameRequestParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyAddressType.html">LowEnergyAddressType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand.html">LowEnergyCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetAdvertisingDataParameter.html">– SetAdvertisingDataParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetAdvertisingParametersParameter.html">– SetAdvertisingParametersParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetAdvertiseEnableParameter.html">– SetAdvertiseEnableParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetScanResponseDataParameter.html">– SetScanResponseDataParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetScanEnableParameter.html">– SetScanEnableParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetScanParametersParameter.html">– SetScanParametersParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/CreateConnectionParameter.html">– CreateConnectionParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/ReadWhiteListSizeReturnParameter.html">– ReadWhiteListSizeReturnParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyEvent.html">LowEnergyEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyEvent/ConnectionCompleteParameter.html">– ConnectionCompleteParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyEvent/AdvertisingReportEventParameter.html">– AdvertisingReportEventParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ProtocolServiceMultiplexer.html">ProtocolServiceMultiplexer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Foundation.html">Foundation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Foundation/UUID.html">– UUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Int64.html">Int64</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Range.html">Range</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Sequence.html">Sequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UInt16.html">UInt16</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UInt32.html">UInt32</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UInt8.html">UInt8</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UUID.html">UUID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Instance Variables.html">Instance Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Instance Variables.html#/s:s8SequenceP9BluetoothsAARzAC13BitMaskOption7ElementRpzlE8rawValueAE_03RawH0QZv">rawValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/BitMaskOption.html">BitMaskOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/BitMaskOption.html">BitMaskOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ByteValue.html">ByteValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCICommand.html">HCICommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCICommandParameter.html">HCICommandParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCICommandReturnParameter.html">HCICommandReturnParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCIEvent.html">HCIEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCIEventParameter.html">HCIEventParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCIVersioned.html">HCIVersioned</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Static Variables.html">Static Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Static Variables.html#/s:9Bluetooth13BitMaskOptionP3alls3SetVyxGvZ">all</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATT.html">ATT</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATT/MTU.html">– MTU</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTErrorResponse.html">ATTErrorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTExecuteWriteRequest.html">ATTExecuteWriteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTExecuteWriteRequest/Flag.html">– Flag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTExecuteWriteResponse.html">ATTExecuteWriteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindByTypeRequest.html">ATTFindByTypeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindByTypeResponse.html">ATTFindByTypeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindByTypeResponse/HandlesInformation.html">– HandlesInformation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindInformationRequest.html">ATTFindInformationRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindInformationResponse.html">ATTFindInformationResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindInformationResponse/Format.html">– Format</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindInformationResponse/Data.html">– Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTHandleValueConfirmation.html">ATTHandleValueConfirmation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTHandleValueIndication.html">ATTHandleValueIndication</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTHandleValueNotification.html">ATTHandleValueNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTMaximumTransmissionUnitRequest.html">ATTMaximumTransmissionUnitRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTMaximumTransmissionUnitResponse.html">ATTMaximumTransmissionUnitResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTPrepareWriteRequest.html">ATTPrepareWriteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTPrepareWriteResponse.html">ATTPrepareWriteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadBlobRequest.html">ATTReadBlobRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadBlobResponse.html">ATTReadBlobResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByGroupTypeRequest.html">ATTReadByGroupTypeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByGroupTypeResponse.html">ATTReadByGroupTypeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByGroupTypeResponse/AttributeData.html">– AttributeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByTypeRequest.html">ATTReadByTypeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByTypeResponse.html">ATTReadByTypeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByTypeResponse/AttributeData.html">– AttributeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadMultipleRequest.html">ATTReadMultipleRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadMultipleResponse.html">ATTReadMultipleResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadRequest.html">ATTReadRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadResponse.html">ATTReadResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTSignedWriteCommand.html">ATTSignedWriteCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTWriteCommand.html">ATTWriteCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTWriteRequest.html">ATTWriteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTWriteResponse.html">ATTWriteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Address.html">Address</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BitMaskOptionSet.html">BitMaskOptionSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CompanyIdentifier.html">CompanyIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT.html">GATT</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/UUID.html">– UUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/CharacteristicDescriptor.html">– CharacteristicDescriptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/CharacteristicProperty.html">– CharacteristicProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/CharacteristicExtendedProperty.html">– CharacteristicExtendedProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/Service.html">– Service</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT.html#/s:9Bluetooth4GATTV15IncludedServiceV">– IncludedService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/Characteristic.html">– Characteristic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/Descriptor.html">– Descriptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/HCI.html">HCI</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LowEnergyScanTimeInterval.html">LowEnergyScanTimeInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LowEnergySupervisionTimeout.html">LowEnergySupervisionTimeout</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/UInt128.html">UInt128</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:9Bluetooth21LowEnergyResponseDataa">LowEnergyResponseData</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>LowEnergyCommand</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">LowEnergyCommand</span><span class="p">:</span> <span class="kt">UInt16</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HCICommand.html">HCICommand</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Bluetooth Low Energy Command opcode</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO16opcodeGroupFieldAA09HCIOpcodefG0OvZ"></a>
+                    <a name="//apple_ref/swift/Variable/opcodeGroupField" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO16opcodeGroupFieldAA09HCIOpcodefG0OvZ">opcodeGroupField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">opcodeGroupField</span> <span class="o">=</span> <span class="kt"><a href="../Enums/HCIOpcodeGroupField.html">HCIOpcodeGroupField</a></span><span class="o">.</span><span class="n">lowEnergy</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO12setEventMaskA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setEventMask" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO12setEventMaskA2CmF">setEventMask</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setEventMask</span>                   <span class="o">=</span> <span class="mh">0x0001</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO14readBufferSizeA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/readBufferSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO14readBufferSizeA2CmF">readBufferSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">readBufferSize</span>                 <span class="o">=</span> <span class="mh">0x0002</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO26readLocalSupportedFeaturesA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/readLocalSupportedFeatures" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO26readLocalSupportedFeaturesA2CmF">readLocalSupportedFeatures</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">readLocalSupportedFeatures</span>     <span class="o">=</span> <span class="mh">0x0003</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO16setRandomAddressA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setRandomAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO16setRandomAddressA2CmF">setRandomAddress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setRandomAddress</span>               <span class="o">=</span> <span class="mh">0x0005</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO24setAdvertisingParametersA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setAdvertisingParameters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO24setAdvertisingParametersA2CmF">setAdvertisingParameters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setAdvertisingParameters</span>       <span class="o">=</span> <span class="mh">0x0006</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO29readAdvertisingChannelTXPowerA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/readAdvertisingChannelTXPower" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO29readAdvertisingChannelTXPowerA2CmF">readAdvertisingChannelTXPower</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">readAdvertisingChannelTXPower</span>  <span class="o">=</span> <span class="mh">0x0007</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO18setAdvertisingDataA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setAdvertisingData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO18setAdvertisingDataA2CmF">setAdvertisingData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setAdvertisingData</span>             <span class="o">=</span> <span class="mh">0x0008</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO19setScanResponseDataA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setScanResponseData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO19setScanResponseDataA2CmF">setScanResponseData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setScanResponseData</span>            <span class="o">=</span> <span class="mh">0x0009</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO18setAdvertiseEnableA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setAdvertiseEnable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO18setAdvertiseEnableA2CmF">setAdvertiseEnable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setAdvertiseEnable</span>             <span class="o">=</span> <span class="mh">0x000A</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO17setScanParametersA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setScanParameters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO17setScanParametersA2CmF">setScanParameters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setScanParameters</span>              <span class="o">=</span> <span class="mh">0x000B</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO13setScanEnableA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setScanEnable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO13setScanEnableA2CmF">setScanEnable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setScanEnable</span>                  <span class="o">=</span> <span class="mh">0x000C</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO16createConnectionA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/createConnection" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO16createConnectionA2CmF">createConnection</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">createConnection</span>               <span class="o">=</span> <span class="mh">0x000D</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO22createConnectionCancelA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/createConnectionCancel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO22createConnectionCancelA2CmF">createConnectionCancel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">createConnectionCancel</span>         <span class="o">=</span> <span class="mh">0x000E</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO17readWhiteListSizeA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/readWhiteListSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO17readWhiteListSizeA2CmF">readWhiteListSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">readWhiteListSize</span>              <span class="o">=</span> <span class="mh">0x000F</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO14clearWhiteListA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/clearWhiteList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO14clearWhiteListA2CmF">clearWhiteList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">clearWhiteList</span>                 <span class="o">=</span> <span class="mh">0x0010</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO20addDeviceToWhiteListA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/addDeviceToWhiteList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO20addDeviceToWhiteListA2CmF">addDeviceToWhiteList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">addDeviceToWhiteList</span>           <span class="o">=</span> <span class="mh">0x0011</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO25removeDeviceFromWhiteListA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/removeDeviceFromWhiteList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO25removeDeviceFromWhiteListA2CmF">removeDeviceFromWhiteList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">removeDeviceFromWhiteList</span>      <span class="o">=</span> <span class="mh">0x0012</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO16connectionUpdateA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/connectionUpdate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO16connectionUpdateA2CmF">connectionUpdate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">connectionUpdate</span>               <span class="o">=</span> <span class="mh">0x0013</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO28setHostChannelClassificationA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setHostChannelClassification" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO28setHostChannelClassificationA2CmF">setHostChannelClassification</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setHostChannelClassification</span>   <span class="o">=</span> <span class="mh">0x0014</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO14readChannelMapA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/readChannelMap" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO14readChannelMapA2CmF">readChannelMap</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">readChannelMap</span>                 <span class="o">=</span> <span class="mh">0x0015</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO22readRemoteUsedFeaturesA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/readRemoteUsedFeatures" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO22readRemoteUsedFeaturesA2CmF">readRemoteUsedFeatures</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">readRemoteUsedFeatures</span>         <span class="o">=</span> <span class="mh">0x0016</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO7encryptA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/encrypt" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO7encryptA2CmF">encrypt</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">encrypt</span>                        <span class="o">=</span> <span class="mh">0x0017</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO6randomA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/random" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO6randomA2CmF">random</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">random</span>                         <span class="o">=</span> <span class="mh">0x0018</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO15startEncryptionA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/startEncryption" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO15startEncryptionA2CmF">startEncryption</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">startEncryption</span>                <span class="o">=</span> <span class="mh">0x0019</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO8ltkReplyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/ltkReply" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO8ltkReplyA2CmF">ltkReply</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">ltkReply</span>                       <span class="o">=</span> <span class="mh">0x001A</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO16ltkNegativeReplyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/ltkNegativeReply" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO16ltkNegativeReplyA2CmF">ltkNegativeReply</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">ltkNegativeReply</span>               <span class="o">=</span> <span class="mh">0x001B</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO19readSupportedStatesA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/readSupportedStates" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO19readSupportedStatesA2CmF">readSupportedStates</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">readSupportedStates</span>            <span class="o">=</span> <span class="mh">0x001C</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO12receiverTestA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/receiverTest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO12receiverTestA2CmF">receiverTest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">receiverTest</span>                   <span class="o">=</span> <span class="mh">0x001D</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO15transmitterTestA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/transmitterTest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO15transmitterTestA2CmF">transmitterTest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">transmitterTest</span>                <span class="o">=</span> <span class="mh">0x001E</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO7testEndA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/testEnd" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO7testEndA2CmF">testEnd</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">testEnd</span>                        <span class="o">=</span> <span class="mh">0x001F</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO23addDeviceToResolvedListA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/addDeviceToResolvedList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO23addDeviceToResolvedListA2CmF">addDeviceToResolvedList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">addDeviceToResolvedList</span>        <span class="o">=</span> <span class="mh">0x0027</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO28removeDeviceFromResolvedListA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/removeDeviceFromResolvedList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO28removeDeviceFromResolvedListA2CmF">removeDeviceFromResolvedList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">removeDeviceFromResolvedList</span>   <span class="o">=</span> <span class="mh">0x0028</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO17clearResolvedListA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/clearResolvedList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO17clearResolvedListA2CmF">clearResolvedList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">clearResolvedList</span>              <span class="o">=</span> <span class="mh">0x0029</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO20readResolvedListSizeA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/readResolvedListSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO20readResolvedListSizeA2CmF">readResolvedListSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">readResolvedListSize</span>           <span class="o">=</span> <span class="mh">0x002A</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO26setAddressResolutionEnableA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/setAddressResolutionEnable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO26setAddressResolutionEnableA2CmF">setAddressResolutionEnable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">setAddressResolutionEnable</span>     <span class="o">=</span> <span class="mh">0x002D</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO27SetAdvertisingDataParameterV"></a>
+                    <a name="//apple_ref/swift/Struct/SetAdvertisingDataParameter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO27SetAdvertisingDataParameterV">SetAdvertisingDataParameter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LE Set Advertising Data Command</p>
+
+<p>Used to set the data used in advertising packets that have a data field.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Only the significant part of the Advertising Data is transmitted in the advertising packets.
+
+</div>
+
+                        <a href="../Enums/LowEnergyCommand/SetAdvertisingDataParameter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SetAdvertisingDataParameter</span><span class="p">:</span> <span class="kt"><a href="../Protocols/HCICommandParameter.html">HCICommandParameter</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO33SetAdvertisingParametersParameterV"></a>
+                    <a name="//apple_ref/swift/Struct/SetAdvertisingParametersParameter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO33SetAdvertisingParametersParameterV">SetAdvertisingParametersParameter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LE Set Advertising Parameters Command</p>
+
+<p>Used by the Host to set the advertising parameters.</p>
+
+                        <a href="../Enums/LowEnergyCommand/SetAdvertisingParametersParameter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SetAdvertisingParametersParameter</span><span class="p">:</span> <span class="kt"><a href="../Protocols/HCICommandParameter.html">HCICommandParameter</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO27SetAdvertiseEnableParameterV"></a>
+                    <a name="//apple_ref/swift/Struct/SetAdvertiseEnableParameter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO27SetAdvertiseEnableParameterV">SetAdvertiseEnableParameter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LE Set Advertise Enable Command</p>
+
+                        <a href="../Enums/LowEnergyCommand/SetAdvertiseEnableParameter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SetAdvertiseEnableParameter</span><span class="p">:</span> <span class="kt"><a href="../Protocols/HCICommandParameter.html">HCICommandParameter</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO28SetScanResponseDataParameterV"></a>
+                    <a name="//apple_ref/swift/Struct/SetScanResponseDataParameter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO28SetScanResponseDataParameterV">SetScanResponseDataParameter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LE Set Scan Response Data Command</p>
+
+                        <a href="../Enums/LowEnergyCommand/SetScanResponseDataParameter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SetScanResponseDataParameter</span><span class="p">:</span> <span class="kt"><a href="../Protocols/HCICommandParameter.html">HCICommandParameter</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO22SetScanEnableParameterV"></a>
+                    <a name="//apple_ref/swift/Struct/SetScanEnableParameter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO22SetScanEnableParameterV">SetScanEnableParameter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LE Set Scan Enable Command</p>
+
+<p>The <code>LE Set Scan Enable Command</code> command is used to start scanning.
+Scanning is used to discover advertising devices nearby.</p>
+
+                        <a href="../Enums/LowEnergyCommand/SetScanEnableParameter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SetScanEnableParameter</span><span class="p">:</span> <span class="kt"><a href="../Protocols/HCICommandParameter.html">HCICommandParameter</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO26SetScanParametersParameterV"></a>
+                    <a name="//apple_ref/swift/Struct/SetScanParametersParameter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO26SetScanParametersParameterV">SetScanParametersParameter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LE Set Scan Parameters Command</p>
+
+<p>Used to set the scan parameters.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    The Host shall not issue this command when scanning is enabled in the Controller; 
+if it is the Command Disallowed error code shall be used.
+
+</div>
+
+                        <a href="../Enums/LowEnergyCommand/SetScanParametersParameter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SetScanParametersParameter</span><span class="p">:</span> <span class="kt"><a href="../Protocols/HCICommandParameter.html">HCICommandParameter</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO25CreateConnectionParameterV"></a>
+                    <a name="//apple_ref/swift/Struct/CreateConnectionParameter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO25CreateConnectionParameterV">CreateConnectionParameter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LE Create Connection Command</p>
+
+<p>The LE Create Connection command is used to create a Link Layer connection to a connectable advertiser.</p>
+
+<p>When the Controller receives the LE Create Connection Command, the Controller sends the Command Status 
+event to the Host. An LE Connection Complete event shall be generated when a connection is created 
+or the connection creation procedure is cancelled.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>No Command Complete event is sent by the Controller to indicate that this command has been completed.
+Instead, the LE Connection Complete event indicates that this command has been completed.</p>
+
+</div>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    <p>The Host shall not issue this command when another <code>LE Create Connection Command</code> is pending
+in the Controller; if this does occur the Controller shall return the Command Disallowed error code shall be used.</p>
+
+</div>
+
+                        <a href="../Enums/LowEnergyCommand/CreateConnectionParameter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CreateConnectionParameter</span><span class="p">:</span> <span class="kt"><a href="../Protocols/HCICommandParameter.html">HCICommandParameter</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16LowEnergyCommandO32ReadWhiteListSizeReturnParameterV"></a>
+                    <a name="//apple_ref/swift/Struct/ReadWhiteListSizeReturnParameter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16LowEnergyCommandO32ReadWhiteListSizeReturnParameterV">ReadWhiteListSizeReturnParameter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LE Read White List Size</p>
+
+<p>The command is used to read the total number of white list entries that can be stored in the Controller.</p>
+
+                        <a href="../Enums/LowEnergyCommand/ReadWhiteListSizeReturnParameter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ReadWhiteListSizeReturnParameter</span><span class="p">:</span> <span class="kt"><a href="../Protocols/HCICommandReturnParameter.html">HCICommandReturnParameter</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">PureSwift</a>. All rights reserved. (Last updated: 2018-03-15)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

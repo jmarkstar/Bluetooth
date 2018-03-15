@@ -1,0 +1,2668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HCIError Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Enum/HCIError" class="dashAnchor"></a>
+
+    <a title="HCIError Enumeration Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          Bluetooth Docs
+        </a>
+         (65% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/PureSwift/Bluetooth">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">Bluetooth Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      HCIError Enumeration Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ATTAttributePermission.html">ATTAttributePermission</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ATTError.html">ATTError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ATTOpcode.html">ATTOpcode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ATTOpcodeType.html">ATTOpcodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/AdvertisingChannelHeader.html">AdvertisingChannelHeader</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/BluetoothUUID.html">BluetoothUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIError.html">HCIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent.html">HCIGeneralEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent/CommandCompleteParameter.html">– CommandCompleteParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent/CommandStatusParameter.html">– CommandStatusParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent/RemoteNameRequestCompleteParameter.html">– RemoteNameRequestCompleteParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIGeneralEvent/LowEnergyMetaParameter.html">– LowEnergyMetaParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIOpcodeGroupField.html">HCIOpcodeGroupField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIStatus.html">HCIStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HCIVersion.html">HCIVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LinkControlCommand.html">LinkControlCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LinkControlCommand/InquiryParameter.html">– InquiryParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LinkControlCommand/RemoteNameRequestParameter.html">– RemoteNameRequestParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyAddressType.html">LowEnergyAddressType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand.html">LowEnergyCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetAdvertisingDataParameter.html">– SetAdvertisingDataParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetAdvertisingParametersParameter.html">– SetAdvertisingParametersParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetAdvertiseEnableParameter.html">– SetAdvertiseEnableParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetScanResponseDataParameter.html">– SetScanResponseDataParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetScanEnableParameter.html">– SetScanEnableParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/SetScanParametersParameter.html">– SetScanParametersParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/CreateConnectionParameter.html">– CreateConnectionParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyCommand/ReadWhiteListSizeReturnParameter.html">– ReadWhiteListSizeReturnParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyEvent.html">LowEnergyEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyEvent/ConnectionCompleteParameter.html">– ConnectionCompleteParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LowEnergyEvent/AdvertisingReportEventParameter.html">– AdvertisingReportEventParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ProtocolServiceMultiplexer.html">ProtocolServiceMultiplexer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Foundation.html">Foundation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Foundation/UUID.html">– UUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Int64.html">Int64</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Range.html">Range</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Sequence.html">Sequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UInt16.html">UInt16</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UInt32.html">UInt32</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UInt8.html">UInt8</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UUID.html">UUID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Instance Variables.html">Instance Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Instance Variables.html#/s:s8SequenceP9BluetoothsAARzAC13BitMaskOption7ElementRpzlE8rawValueAE_03RawH0QZv">rawValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/BitMaskOption.html">BitMaskOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/BitMaskOption.html">BitMaskOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ByteValue.html">ByteValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCICommand.html">HCICommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCICommandParameter.html">HCICommandParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCICommandReturnParameter.html">HCICommandReturnParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCIEvent.html">HCIEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCIEventParameter.html">HCIEventParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HCIVersioned.html">HCIVersioned</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Static Variables.html">Static Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Static Variables.html#/s:9Bluetooth13BitMaskOptionP3alls3SetVyxGvZ">all</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATT.html">ATT</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATT/MTU.html">– MTU</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTErrorResponse.html">ATTErrorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTExecuteWriteRequest.html">ATTExecuteWriteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTExecuteWriteRequest/Flag.html">– Flag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTExecuteWriteResponse.html">ATTExecuteWriteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindByTypeRequest.html">ATTFindByTypeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindByTypeResponse.html">ATTFindByTypeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindByTypeResponse/HandlesInformation.html">– HandlesInformation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindInformationRequest.html">ATTFindInformationRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindInformationResponse.html">ATTFindInformationResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindInformationResponse/Format.html">– Format</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTFindInformationResponse/Data.html">– Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTHandleValueConfirmation.html">ATTHandleValueConfirmation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTHandleValueIndication.html">ATTHandleValueIndication</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTHandleValueNotification.html">ATTHandleValueNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTMaximumTransmissionUnitRequest.html">ATTMaximumTransmissionUnitRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTMaximumTransmissionUnitResponse.html">ATTMaximumTransmissionUnitResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTPrepareWriteRequest.html">ATTPrepareWriteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTPrepareWriteResponse.html">ATTPrepareWriteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadBlobRequest.html">ATTReadBlobRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadBlobResponse.html">ATTReadBlobResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByGroupTypeRequest.html">ATTReadByGroupTypeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByGroupTypeResponse.html">ATTReadByGroupTypeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByGroupTypeResponse/AttributeData.html">– AttributeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByTypeRequest.html">ATTReadByTypeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByTypeResponse.html">ATTReadByTypeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadByTypeResponse/AttributeData.html">– AttributeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadMultipleRequest.html">ATTReadMultipleRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadMultipleResponse.html">ATTReadMultipleResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadRequest.html">ATTReadRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTReadResponse.html">ATTReadResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTSignedWriteCommand.html">ATTSignedWriteCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTWriteCommand.html">ATTWriteCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTWriteRequest.html">ATTWriteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ATTWriteResponse.html">ATTWriteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Address.html">Address</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BitMaskOptionSet.html">BitMaskOptionSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CompanyIdentifier.html">CompanyIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT.html">GATT</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/UUID.html">– UUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/CharacteristicDescriptor.html">– CharacteristicDescriptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/CharacteristicProperty.html">– CharacteristicProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/CharacteristicExtendedProperty.html">– CharacteristicExtendedProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/Service.html">– Service</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT.html#/s:9Bluetooth4GATTV15IncludedServiceV">– IncludedService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/Characteristic.html">– Characteristic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GATT/Descriptor.html">– Descriptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/HCI.html">HCI</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LowEnergyScanTimeInterval.html">LowEnergyScanTimeInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LowEnergySupervisionTimeout.html">LowEnergySupervisionTimeout</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/UInt128.html">UInt128</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:9Bluetooth21LowEnergyResponseDataa">LowEnergyResponseData</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>HCIError</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">HCIError</span><span class="p">:</span> <span class="kt">UInt8</span><span class="p">,</span> <span class="kt">Error</span></code></pre>
+
+                </div>
+              </div>
+            <p>Bluetooth HCI Errors</p>
+
+<p>If an HCI Command that should generate a Command Complete event generates an error 
+then this error shall be reported in the Command Complete event.</p>
+
+<p>If an HCI Command that sent a Command Status with the error code ‘Success’
+to the Host before processing may find an error during execution then the error may 
+be reported in the normal completion command for the original command or in a Command Status event.</p>
+
+<p>Some HCI Commands may generate errors that need to be reported to the Host, 
+but there is insufficient information to determine how the command would normally be processed.
+In this case, two events can be used to indicate this to the Host, the Command Complete event 
+and Command Status events. Which of the two events is used is implementation-dependent.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO14unknownCommandA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/unknownCommand" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO14unknownCommandA2CmF">unknownCommand</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unknown HCI Command</p>
+
+<p>The Unknown HCI Command error code indicates that the Controller 
+does not understand the HCI Command Packet OpCode that the Host sent. 
+The OpCode given might not correspond to any of the OpCodes specified 
+in this document, or any vendor-specific OpCodes, or the command may not have been implemented.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unknownCommand</span>                     <span class="o">=</span> <span class="mh">0x01</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO12noConnectionA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/noConnection" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO12noConnectionA2CmF">noConnection</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unknown Connection Identifier</p>
+
+<p>The Unknown Connection Identifier error code indicates that
+a command was sent from the Host that should identify a 
+connection, but that connection does not exist.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">noConnection</span>                       <span class="o">=</span> <span class="mh">0x02</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO15hardwareFailureA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/hardwareFailure" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO15hardwareFailureA2CmF">hardwareFailure</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hardware Failure</p>
+
+<p>The Hardware Failure error code indicates to the Host that 
+something in the Controller has failed in a manner that cannot 
+be described with any other error code. 
+The meaning implied with this error code is implementation dependent.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">hardwareFailure</span>                    <span class="o">=</span> <span class="mh">0x03</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO11pageTimeoutA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/pageTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO11pageTimeoutA2CmF">pageTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Page Timeout</p>
+
+<p>The Page Timeout error code indicates that a page timed out because 
+of the Page Timeout configuration parameter. </p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This error code may occur only with the <code>.remoteNameRequest</code> and <code>.createConnection</code> commands.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">pageTimeout</span>                        <span class="o">=</span> <span class="mh">0x04</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO21authenticationFailureA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/authenticationFailure" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO21authenticationFailureA2CmF">authenticationFailure</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authentication Failure</p>
+
+<p>The Authentication Failure error code indicates that pairing 
+or authentication failed due to incorrect results in the pairing 
+or authentication procedure. 
+This could be due to an incorrect PIN or Link Key.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">authenticationFailure</span>              <span class="o">=</span> <span class="mh">0x05</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO10keyMissingA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/keyMissing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO10keyMissingA2CmF">keyMissing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>PIN or Key Missing</p>
+
+<p>The PIN or Key Missing error code is used when pairing failed 
+because of a missing PIN, or authentication failed because of a missing Key.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">keyMissing</span>                         <span class="o">=</span> <span class="mh">0x06</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO10memoryFullA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/memoryFull" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO10memoryFullA2CmF">memoryFull</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Memory Capacity Exceeded</p>
+
+<p>The Memory Capacity Exceeded error code indicates to the Host that 
+the Controller has run out of memory to store new parameters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">memoryFull</span>                         <span class="o">=</span> <span class="mh">0x07</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO17connectionTimeoutA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/connectionTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO17connectionTimeoutA2CmF">connectionTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Timeout</p>
+
+<p>The Connection Timeout error code indicates that the 
+link supervision timeout has expired for a given connection.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">connectionTimeout</span>                  <span class="o">=</span> <span class="mh">0x08</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO14maxConnectionsA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/maxConnections" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO14maxConnectionsA2CmF">maxConnections</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Limit Exceeded</p>
+
+<p>The Connection Limit Exceeded error code indicates that 
+an attempt to create another connection failed because 
+the Controller is already at its limit of the number of
+connections it can support. </p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    The number of connections a device can support is implementation dependent.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">maxConnections</span>                     <span class="o">=</span> <span class="mh">0x09</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO17maxSCOConnectionsA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/maxSCOConnections" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO17maxSCOConnectionsA2CmF">maxSCOConnections</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Synchronous Connection Limit To A Device Exceeded</p>
+
+<p>The Synchronous Connection Limit to a Device Exceeded error code 
+indicates that the Controller has reached the limit to the number
+of synchronous connections that can be achieved to a device. </p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    The number of synchronous connections a device can support is implementation dependent.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">maxSCOConnections</span>                  <span class="o">=</span> <span class="mh">0x0A</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO19aclConnectionExistsA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/aclConnectionExists" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO19aclConnectionExistsA2CmF">aclConnectionExists</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ACL Connection Already Exists</p>
+
+<p>The ACL Connection Already Exists error code indicates that an 
+attempt to create a new ACL Connection to a device when there 
+is already a connection to this device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">aclConnectionExists</span>                <span class="o">=</span> <span class="mh">0x0B</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO17commandDisallowedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/commandDisallowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO17commandDisallowedA2CmF">commandDisallowed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Command Disallowed</p>
+
+<p>The Command Disallowed error code indicates that the command requested 
+cannot be executed because the Controller is in a state where it cannot 
+process this command at this time. </p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This error shall not be used for command OpCodes where the error code Unknown HCI Command is valid.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">commandDisallowed</span>                  <span class="o">=</span> <span class="mh">0x0C</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO24rejectedLimitedResourcesA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/rejectedLimitedResources" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO24rejectedLimitedResourcesA2CmF">rejectedLimitedResources</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Rejected due to Limited Resources</p>
+
+<p>The Connection Rejected Due To Limited Resources error code 
+indicates that an incoming connection was rejected due to limited resources.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">rejectedLimitedResources</span>           <span class="o">=</span> <span class="mh">0x0D</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO16rejectedSecurityA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/rejectedSecurity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO16rejectedSecurityA2CmF">rejectedSecurity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Rejected Due To Security Reasons</p>
+
+<p>The Connection Rejected Due To Security Reasons error code 
+indicates that a connection was rejected due to security requirements 
+not being fulfilled, like authentication or pairing.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">rejectedSecurity</span>                   <span class="o">=</span> <span class="mh">0x0E</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO15rejectedAddressA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/rejectedAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO15rejectedAddressA2CmF">rejectedAddress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Rejected due to Unacceptable <code>Bluetooth.Address</code></p>
+
+<p>The Connection Rejected due to Unacceptable Bluetooth Address
+error code indicates that a connection was rejected because this
+device does not accept the Bluetooth Address (<code>BD_ADDR</code>).</p>
+
+<p>This may be because the device will only accept connections from specific Bluetooth Addresses.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">rejectedAddress</span>                    <span class="o">=</span> <span class="mh">0x0F</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO11hostTimeoutA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/hostTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO11hostTimeoutA2CmF">hostTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Accept Timeout Exceeded</p>
+
+<p>The Connection Accept Timeout Exceeded error code indicates that 
+the Connection Accept Timeout has been exceeded for this connection attempt.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">hostTimeout</span>                        <span class="o">=</span> <span class="mh">0x10</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO18unsupportedFeatureA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/unsupportedFeature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO18unsupportedFeatureA2CmF">unsupportedFeature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unsupported Feature or Parameter Value</p>
+
+<p>The Unsupported Feature Or Parameter Value error code indicates that 
+a feature or parameter value in the HCI command is not supported. </p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This error code shall not be used in an LMP PDU.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unsupportedFeature</span>                 <span class="o">=</span> <span class="mh">0x11</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO17invalidParametersA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/invalidParameters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO17invalidParametersA2CmF">invalidParameters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invalid HCI Command Parameters</p>
+
+<p>The Invalid HCI Command Parameters error code indicates that at 
+least one of the HCI command parameters is invalid.</p>
+
+<p>This shall be used when:</p>
+
+<ul>
+<li>the parameter total length is invalid.</li>
+<li>a command parameter is an invalid type.</li>
+<li>a connection identifier does not match the corresponding event.</li>
+<li>a parameter value shall be even.</li>
+<li>a parameter is outside of the specified range.</li>
+<li>two or more parameter values have inconsistent values.</li>
+</ul>
+
+<p>Note: An invalid type can be, for example, when an SCO connection
+handle is used where an ACL connection handle is required.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">invalidParameters</span>                  <span class="o">=</span> <span class="mh">0x012</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO25remoteUserEndedConnectionA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/remoteUserEndedConnection" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO25remoteUserEndedConnectionA2CmF">remoteUserEndedConnection</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remote User Terminated Connection</p>
+
+<p>The Remote User Terminated Connection error code indicates that 
+the user on the remote device terminated the connection.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">remoteUserEndedConnection</span>          <span class="o">=</span> <span class="mh">0x13</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO18remoteLowResourcesA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/remoteLowResources" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO18remoteLowResourcesA2CmF">remoteLowResources</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remote Device Terminated Connection due to Low Resources</p>
+
+<p>The Remote Device Terminated Connection due to Low Resources 
+error code indicates that the remote device terminated 
+the connection because of low resources.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">remoteLowResources</span>                 <span class="o">=</span> <span class="mh">0x14</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO14remotePowerOffA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/remotePowerOff" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO14remotePowerOffA2CmF">remotePowerOff</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remote Device Terminated Connection due to Power Off</p>
+
+<p>The Remote Device Terminated Connection due to Power Off 
+error code indicates that the remote device terminated 
+the connection because the device is about to power off.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">remotePowerOff</span>                     <span class="o">=</span> <span class="mh">0x15</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO20connectionTerminatedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/connectionTerminated" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO20connectionTerminatedA2CmF">connectionTerminated</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Terminated By Local Host</p>
+
+<p>The Connection Terminated By Local Host error code 
+indicates that the local device terminated the connection.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">connectionTerminated</span>               <span class="o">=</span> <span class="mh">0x16</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO16repeatedAttemptsA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/repeatedAttempts" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO16repeatedAttemptsA2CmF">repeatedAttempts</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Repeated Attempts</p>
+
+<p>The Repeated Attempts error code indicates that the Controller 
+is disallowing an authentication or pairing procedure because 
+too little time has elapsed since the last authentication or pairing attempt failed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">repeatedAttempts</span>                   <span class="o">=</span> <span class="mh">0x17</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO17pairingNotAllowedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/pairingNotAllowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO17pairingNotAllowedA2CmF">pairingNotAllowed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pairing Not Allowed</p>
+
+<p>The Pairing Not Allowed error code indicates that the device does not allow pairing. 
+For example, when a device only allows pairing during a certain time window after some user input allows pairing.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">pairingNotAllowed</span>                  <span class="o">=</span> <span class="mh">0x18</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO13unknownLMPPDUA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/unknownLMPPDU" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO13unknownLMPPDUA2CmF">unknownLMPPDU</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unknown LMP PDU</p>
+
+<p>The Unknown LMP PDU error code indicates that the Controller has received an unknown LMP OpCode.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unknownLMPPDU</span>                      <span class="o">=</span> <span class="mh">0x19</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO24unsupportedRemoteFeatureA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/unsupportedRemoteFeature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO24unsupportedRemoteFeatureA2CmF">unsupportedRemoteFeature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unsupported Remote Feature / Unsupported LMP Feature</p>
+
+<p>The Unsupported Remote Feature error code indicates that the remote device 
+does not support the feature associated with the issued command or LMP PDU.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unsupportedRemoteFeature</span>           <span class="o">=</span> <span class="mh">0x1A</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO17scoOffsetRejectedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/scoOffsetRejected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO17scoOffsetRejectedA2CmF">scoOffsetRejected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SCO Offset Rejected</p>
+
+<p>The SCO Offset Rejected error code indicates that the offset requested in 
+the <code>LMP_SCO_link_req</code> PDU has been rejected.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">scoOffsetRejected</span>                  <span class="o">=</span> <span class="mh">0x1B</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO19scoIntervalRejectedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/scoIntervalRejected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO19scoIntervalRejectedA2CmF">scoIntervalRejected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SCO Interval Rejected</p>
+
+<p>The SCO Interval Rejected error code indicates that the interval requested in
+the <code>LMP_SCO_link_req</code> PDU has been rejected.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">scoIntervalRejected</span>                <span class="o">=</span> <span class="mh">0x1C</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO18scoAirModeRejectedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/scoAirModeRejected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO18scoAirModeRejectedA2CmF">scoAirModeRejected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SCO Air Mode Rejected</p>
+
+<p>The SCO Air Mode Rejected error code indicates that the air mode requested in
+the <code>LMP_SCO_link_req</code> PDU has been rejected.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">scoAirModeRejected</span>                 <span class="o">=</span> <span class="mh">0x1D</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO20invalidLMPParametersA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/invalidLMPParameters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO20invalidLMPParametersA2CmF">invalidLMPParameters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invalid LMP Parameters</p>
+
+<p>The Invalid LMP Parameters error code indicates that some LMP PDU parameters were invalid.
+This shall be used when:</p>
+
+<ul>
+<li>the PDU length is invalid.</li>
+<li>a parameter value shall be even.</li>
+<li>a parameter is outside of the specified range.</li>
+<li>two or more parameters have inconsistent values.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">invalidLMPParameters</span>               <span class="o">=</span> <span class="mh">0x1E</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO16unspecifiedErrorA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/unspecifiedError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO16unspecifiedErrorA2CmF">unspecifiedError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unspecified Error</p>
+
+<p>The Unspecified Error error code indicates that 
+no other error code specified is appropriate to use.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unspecifiedError</span>                   <span class="o">=</span> <span class="mh">0x1F</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO28unsupportedLMPParameterValueA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/unsupportedLMPParameterValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO28unsupportedLMPParameterValueA2CmF">unsupportedLMPParameterValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unsupported LMP Parameter Value</p>
+
+<p>The Unsupported LMP Parameter Value error code indicates 
+that an LMP PDU contains at least one parameter value that 
+is not supported by the Controller at this time. 
+This is normally used after a long negotiation procedure,
+for example during an <code>LMP_hold_req</code>, <code>LMP_sniff_req</code> 
+and <code>LMP_encryption_key_size_req</code> PDU exchanges.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unsupportedLMPParameterValue</span>       <span class="o">=</span> <span class="mh">0x20</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO20roleChangeNotAllowedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/roleChangeNotAllowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO20roleChangeNotAllowedA2CmF">roleChangeNotAllowed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Role Change Not Allowed</p>
+
+<p>The Role Change Not Allowed error code indicates that 
+a Controller will not allow a role change at this time.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">roleChangeNotAllowed</span>               <span class="o">=</span> <span class="mh">0x21</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO18lmpResponseTimeoutA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/lmpResponseTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO18lmpResponseTimeoutA2CmF">lmpResponseTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LMP Response Timeout / LL Response Timeout</p>
+
+<p>The LMP Response Timeout / LL Response Timeout error code
+indicates that an LMP transaction failed to respond within 
+the LMP response timeout or an LL transaction failed to respond within the LL response timeout.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lmpResponseTimeout</span>                 <span class="o">=</span> <span class="mh">0x22</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO28lmpErrorTransactionCollisionA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/lmpErrorTransactionCollision" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO28lmpErrorTransactionCollisionA2CmF">lmpErrorTransactionCollision</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LMP Error Transaction Collision</p>
+
+<p>The LMP Error Transaction Collision error code indicates 
+that an LMP transaction has collided with the same transaction
+that is already in progress.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lmpErrorTransactionCollision</span>       <span class="o">=</span> <span class="mh">0x23</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO16lmpPDUNotAllowedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/lmpPDUNotAllowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO16lmpPDUNotAllowedA2CmF">lmpPDUNotAllowed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LMP PDU Not Allowed</p>
+
+<p>The LMP PDU Not Allowed error code indicates that a Controller 
+sent an LMP PDU with an OpCode that was not allowed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lmpPDUNotAllowed</span>                   <span class="o">=</span> <span class="mh">0x24</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO27encryptionModeNotAcceptableA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/encryptionModeNotAcceptable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO27encryptionModeNotAcceptableA2CmF">encryptionModeNotAcceptable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Encryption Mode Not Acceptable</p>
+
+<p>The Encryption Mode Not Acceptable error code indicates 
+that the requested encryption mode is not acceptable at this time.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">encryptionModeNotAcceptable</span>        <span class="o">=</span> <span class="mh">0x25</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO19linkKeyCannotChangeA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/linkKeyCannotChange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO19linkKeyCannotChangeA2CmF">linkKeyCannotChange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Link Key cannot be Changed</p>
+
+<p>The Link Key cannot be Changed error code indicates that 
+a link key cannot be changed because a fixed unit key is being used.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">linkKeyCannotChange</span>                <span class="o">=</span> <span class="mh">0x26</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO24requestedQoSNotSupportedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/requestedQoSNotSupported" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO24requestedQoSNotSupportedA2CmF">requestedQoSNotSupported</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Requested QoS Not Supported</p>
+
+<p>The Requested QoS Not Supported error code indicates that the requested Quality of Service is not supported.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">requestedQoSNotSupported</span>           <span class="o">=</span> <span class="mh">0x27</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO13instantPassedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/instantPassed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO13instantPassedA2CmF">instantPassed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Instant Passed</p>
+
+<p>The Instant Passed error code indicates that an LMP PDU 
+or LL PDU that includes an instant cannot be performed 
+because the instant when this would have occurred has passed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">instantPassed</span>                      <span class="o">=</span> <span class="mh">0x28</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO30pairingWithUnitKeyNotSupportedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/pairingWithUnitKeyNotSupported" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO30pairingWithUnitKeyNotSupportedA2CmF">pairingWithUnitKeyNotSupported</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pairing With Unit Key Not Supported</p>
+
+<p>The Pairing With Unit Key Not Supported error code indicates 
+that it was not possible to pair as a unit key was requested 
+and it is not supported.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">pairingWithUnitKeyNotSupported</span>     <span class="o">=</span> <span class="mh">0x29</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO29differentTransactionCollisionA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/differentTransactionCollision" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO29differentTransactionCollisionA2CmF">differentTransactionCollision</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Different Transaction Collision</p>
+
+<p>The Different Transaction Collision error code indicates that 
+an LMP transaction was started that collides with an ongoing transaction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">differentTransactionCollision</span>      <span class="o">=</span> <span class="mh">0x2A</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO10reserved2BA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/reserved2B" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO10reserved2BA2CmF">reserved2B</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reserved</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">reserved2B</span>                         <span class="o">=</span> <span class="mh">0x2B</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO24qosUnacceptableParameterA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/qosUnacceptableParameter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO24qosUnacceptableParameterA2CmF">qosUnacceptableParameter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>QoS Unacceptable Parameter</p>
+
+<p>The QoS Unacceptable Parameter error code indicates 
+that the specified quality of service parameters could 
+not be accepted at this time, but other parameters may be acceptable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">qosUnacceptableParameter</span>           <span class="o">=</span> <span class="mh">0x2C</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO11qosRejectedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/qosRejected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO11qosRejectedA2CmF">qosRejected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>QoS Rejected</p>
+
+<p>The QoS Rejected error code indicates that the specified quality 
+of service parameters cannot be accepted and QoS negotiation should be terminated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">qosRejected</span>                        <span class="o">=</span> <span class="mh">0x2D</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO33channelClassificationNotSupportedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/channelClassificationNotSupported" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO33channelClassificationNotSupportedA2CmF">channelClassificationNotSupported</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Channel Classification Not Supported</p>
+
+<p>The Channel Assessment Not Supported error code indicates that
+the Controller cannot perform channel assessment because it is not supported.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">channelClassificationNotSupported</span>  <span class="o">=</span> <span class="mh">0x2E</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO20insufficientSecurityA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/insufficientSecurity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO20insufficientSecurityA2CmF">insufficientSecurity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Insufficient Security</p>
+
+<p>The Insufficient Security error code indicates that the 
+HCI command or LMP PDU sent is only possible on an encrypted link.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">insufficientSecurity</span>               <span class="o">=</span> <span class="mh">0x2F</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO28parameterOutOfMandatoryRangeA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/parameterOutOfMandatoryRange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO28parameterOutOfMandatoryRangeA2CmF">parameterOutOfMandatoryRange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Parameter Out Of Mandatory Range</p>
+
+<p>The Parameter Out Of Mandatory Range error code indicates 
+that a parameter value requested is outside the mandatory 
+range of parameters for the given HCI command or LMP PDU.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">parameterOutOfMandatoryRange</span>       <span class="o">=</span> <span class="mh">0x30</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO10reserved31A2CmF"></a>
+                    <a name="//apple_ref/swift/Element/reserved31" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO10reserved31A2CmF">reserved31</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reserved</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">reserved31</span>                         <span class="o">=</span> <span class="mh">0x31</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO17roleSwitchPendingA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/roleSwitchPending" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO17roleSwitchPendingA2CmF">roleSwitchPending</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Role Switch Pending</p>
+
+<p>The Role Switch Pending error code indicates that a Role Switch is pending. 
+This can be used when an HCI command or LMP PDU cannot be accepted because
+of a pending role switch. This can also be used to notify a peer device 
+about a pending role switch.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">roleSwitchPending</span>                  <span class="o">=</span> <span class="mh">0x32</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO10reserved33A2CmF"></a>
+                    <a name="//apple_ref/swift/Element/reserved33" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO10reserved33A2CmF">reserved33</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reserved</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">reserved33</span>                         <span class="o">=</span> <span class="mh">0x33</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO21reservedSlotViolationA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/reservedSlotViolation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO21reservedSlotViolationA2CmF">reservedSlotViolation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reserved Slot Violation</p>
+
+<p>The Reserved Slot Violation error code indicates that the current 
+Synchronous negotiation was terminated with the negotiation state set to Reserved Slot Violation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">reservedSlotViolation</span>              <span class="o">=</span> <span class="mh">0x34</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO16roleSwitchFailedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/roleSwitchFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO16roleSwitchFailedA2CmF">roleSwitchFailed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Role Switch Failed</p>
+
+<p>The Role Switch Failed error code indicates that a role switch 
+was attempted but it failed and the original piconet structure is restored. 
+The switch may have failed because the TDD switch or piconet switch failed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">roleSwitchFailed</span>                   <span class="o">=</span> <span class="mh">0x35</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO31extendedInquiryResponseTooLargeA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/extendedInquiryResponseTooLarge" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO31extendedInquiryResponseTooLargeA2CmF">extendedInquiryResponseTooLarge</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Extended Inquiry Response Too Large</p>
+
+<p>The Extended Inquiry Response Too Large error code indicates 
+that the extended inquiry response, with the requested requirements for FEC,
+is too large to fit in any of the packet types supported by the Controller.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">extendedInquiryResponseTooLarge</span>    <span class="o">=</span> <span class="mh">0x36</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO31secureSimplePairingNotSupportedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/secureSimplePairingNotSupported" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO31secureSimplePairingNotSupportedA2CmF">secureSimplePairingNotSupported</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Secure Simple Pairing Not Supported By Host</p>
+
+<p>The Secure Simple Pairing Not Supported by Host error code indicates that
+the IO capabilities request or response was rejected because the sending 
+Host does not support Secure Simple Pairing even though the receiving Link Manager does.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">secureSimplePairingNotSupported</span>    <span class="o">=</span> <span class="mh">0x37</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO15hostBusyPairingA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/hostBusyPairing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO15hostBusyPairingA2CmF">hostBusyPairing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Host Busy - Pairing</p>
+
+<p>The Host Busy - Pairing error code indicates that the Host is busy
+with another pairing operation and unable to support the requested pairing. 
+The receiving device should retry pairing again later.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">hostBusyPairing</span>                    <span class="o">=</span> <span class="mh">0x38</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO22noSuitableChannelFoundA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/noSuitableChannelFound" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO22noSuitableChannelFoundA2CmF">noSuitableChannelFound</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Rejected due to No Suitable Channel Found</p>
+
+<p>The Connection Rejected due to No Suitable Channel Found error code 
+indicates that the Controller could not calculate an appropriate 
+value for the Channel selection operation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">noSuitableChannelFound</span>             <span class="o">=</span> <span class="mh">0x39</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO14controllerBusyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/controllerBusy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO14controllerBusyA2CmF">controllerBusy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controller Busy</p>
+
+<p>The Controller Busy error code indicates that the operation 
+was rejected because the Controller was busy and unable to process the request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">controllerBusy</span>                     <span class="o">=</span> <span class="mh">0x3A</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO30unacceptableConnectionIntervalA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/unacceptableConnectionInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO30unacceptableConnectionIntervalA2CmF">unacceptableConnectionInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unacceptable Connection Interval</p>
+
+<p>The Unacceptable Connection Interval error code indicates that 
+the remote device terminated the connection because of an unacceptable connection interval.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unacceptableConnectionInterval</span>     <span class="o">=</span> <span class="mh">0x3B</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO26directedAdvertisingTimeoutA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/directedAdvertisingTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO26directedAdvertisingTimeoutA2CmF">directedAdvertisingTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Directed Advertising Timeout</p>
+
+<p>The Directed Advertising Timeout error code indicates that 
+directed advertising completed without a connection being created.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">directedAdvertisingTimeout</span>         <span class="o">=</span> <span class="mh">0x3C</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO10micFailureA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/micFailure" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO10micFailureA2CmF">micFailure</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Terminated due to MIC Failure</p>
+
+<p>The Connection Terminated Due to MIC Failure error code indicates 
+that the connection was terminated because the Message Integrity Check (MIC) 
+failed on a received packet.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">micFailure</span>                         <span class="o">=</span> <span class="mh">0x3D</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO16connectionFailedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/connectionFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO16connectionFailedA2CmF">connectionFailed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection Failed to be Established</p>
+
+<p>The Connection Failed to be Established error code indicates that the LL 
+initiated a connection but the connection has failed to be established.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">connectionFailed</span>                   <span class="o">=</span> <span class="mh">0x3E</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth8HCIErrorO19macConnectionFailedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/macConnectionFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth8HCIErrorO19macConnectionFailedA2CmF">macConnectionFailed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>MAC Connection Failed</p>
+
+<p>The MAC of the 802.11 AMP was requested to connect to a peer, but the connection failed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">macConnectionFailed</span>                <span class="o">=</span> <span class="mh">0x3F</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">PureSwift</a>. All rights reserved. (Last updated: 2018-03-15)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

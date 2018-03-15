@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Structures  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="Structures  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          Bluetooth Docs
+        </a>
+         (65% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/PureSwift/Bluetooth">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">Bluetooth Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Structures  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/ATTAttributePermission.html">ATTAttributePermission</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/ATTError.html">ATTError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/ATTOpcode.html">ATTOpcode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/ATTOpcodeType.html">ATTOpcodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/AdvertisingChannelHeader.html">AdvertisingChannelHeader</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/BluetoothUUID.html">BluetoothUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HCIError.html">HCIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HCIGeneralEvent.html">HCIGeneralEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HCIGeneralEvent/CommandCompleteParameter.html">– CommandCompleteParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HCIGeneralEvent/CommandStatusParameter.html">– CommandStatusParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HCIGeneralEvent/RemoteNameRequestCompleteParameter.html">– RemoteNameRequestCompleteParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HCIGeneralEvent/LowEnergyMetaParameter.html">– LowEnergyMetaParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HCIOpcodeGroupField.html">HCIOpcodeGroupField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HCIStatus.html">HCIStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HCIVersion.html">HCIVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LinkControlCommand.html">LinkControlCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LinkControlCommand/InquiryParameter.html">– InquiryParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LinkControlCommand/RemoteNameRequestParameter.html">– RemoteNameRequestParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyAddressType.html">LowEnergyAddressType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyCommand.html">LowEnergyCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyCommand/SetAdvertisingDataParameter.html">– SetAdvertisingDataParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyCommand/SetAdvertisingParametersParameter.html">– SetAdvertisingParametersParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyCommand/SetAdvertiseEnableParameter.html">– SetAdvertiseEnableParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyCommand/SetScanResponseDataParameter.html">– SetScanResponseDataParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyCommand/SetScanEnableParameter.html">– SetScanEnableParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyCommand/SetScanParametersParameter.html">– SetScanParametersParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyCommand/CreateConnectionParameter.html">– CreateConnectionParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyCommand/ReadWhiteListSizeReturnParameter.html">– ReadWhiteListSizeReturnParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyEvent.html">LowEnergyEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyEvent/ConnectionCompleteParameter.html">– ConnectionCompleteParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LowEnergyEvent/AdvertisingReportEventParameter.html">– AdvertisingReportEventParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/ProtocolServiceMultiplexer.html">ProtocolServiceMultiplexer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Foundation.html">Foundation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Foundation/UUID.html">– UUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Int64.html">Int64</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Range.html">Range</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Sequence.html">Sequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/UInt16.html">UInt16</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/UInt32.html">UInt32</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/UInt8.html">UInt8</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/UUID.html">UUID</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Instance Variables.html">Instance Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Instance Variables.html#/s:s8SequenceP9BluetoothsAARzAC13BitMaskOption7ElementRpzlE8rawValueAE_03RawH0QZv">rawValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/BitMaskOption.html">BitMaskOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/BitMaskOption.html">BitMaskOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/ByteValue.html">ByteValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/HCICommand.html">HCICommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/HCICommandParameter.html">HCICommandParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/HCICommandReturnParameter.html">HCICommandReturnParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/HCIEvent.html">HCIEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/HCIEventParameter.html">HCIEventParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/HCIVersioned.html">HCIVersioned</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Static Variables.html">Static Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Static Variables.html#/s:9Bluetooth13BitMaskOptionP3alls3SetVyxGvZ">all</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATT.html">ATT</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATT/MTU.html">– MTU</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTErrorResponse.html">ATTErrorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTExecuteWriteRequest.html">ATTExecuteWriteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTExecuteWriteRequest/Flag.html">– Flag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTExecuteWriteResponse.html">ATTExecuteWriteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTFindByTypeRequest.html">ATTFindByTypeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTFindByTypeResponse.html">ATTFindByTypeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTFindByTypeResponse/HandlesInformation.html">– HandlesInformation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTFindInformationRequest.html">ATTFindInformationRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTFindInformationResponse.html">ATTFindInformationResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTFindInformationResponse/Format.html">– Format</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTFindInformationResponse/Data.html">– Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTHandleValueConfirmation.html">ATTHandleValueConfirmation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTHandleValueIndication.html">ATTHandleValueIndication</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTHandleValueNotification.html">ATTHandleValueNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTMaximumTransmissionUnitRequest.html">ATTMaximumTransmissionUnitRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTMaximumTransmissionUnitResponse.html">ATTMaximumTransmissionUnitResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTPrepareWriteRequest.html">ATTPrepareWriteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTPrepareWriteResponse.html">ATTPrepareWriteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadBlobRequest.html">ATTReadBlobRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadBlobResponse.html">ATTReadBlobResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadByGroupTypeRequest.html">ATTReadByGroupTypeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadByGroupTypeResponse.html">ATTReadByGroupTypeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadByGroupTypeResponse/AttributeData.html">– AttributeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadByTypeRequest.html">ATTReadByTypeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadByTypeResponse.html">ATTReadByTypeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadByTypeResponse/AttributeData.html">– AttributeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadMultipleRequest.html">ATTReadMultipleRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadMultipleResponse.html">ATTReadMultipleResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadRequest.html">ATTReadRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTReadResponse.html">ATTReadResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTSignedWriteCommand.html">ATTSignedWriteCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTWriteCommand.html">ATTWriteCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTWriteRequest.html">ATTWriteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/ATTWriteResponse.html">ATTWriteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/Address.html">Address</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/BitMaskOptionSet.html">BitMaskOptionSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/CompanyIdentifier.html">CompanyIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/GATT.html">GATT</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/GATT/UUID.html">– UUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/GATT/CharacteristicDescriptor.html">– CharacteristicDescriptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/GATT/CharacteristicProperty.html">– CharacteristicProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/GATT/CharacteristicExtendedProperty.html">– CharacteristicExtendedProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/GATT/Service.html">– Service</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/GATT.html#/s:9Bluetooth4GATTV15IncludedServiceV">– IncludedService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/GATT/Characteristic.html">– Characteristic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/GATT/Descriptor.html">– Descriptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/HCI.html">HCI</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/LowEnergyScanTimeInterval.html">LowEnergyScanTimeInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/LowEnergySupervisionTimeout.html">LowEnergySupervisionTimeout</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/UInt128.html">UInt128</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:9Bluetooth21LowEnergyResponseDataa">LowEnergyResponseData</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>Structures</h1>
+            <p>The following structures are available globally.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth7UInt128V"></a>
+                    <a name="//apple_ref/swift/Struct/UInt128" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth7UInt128V">UInt128</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A 128 bit number stored according to host endianness.</p>
+
+<p>Unlike <code>NSUUID</code> which is always stored in big endian.</p>
+
+                        <a href="Structs/UInt128.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">UInt128</span><span class="p">:</span> <span class="kt"><a href="Protocols/ByteValue.html">ByteValue</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth3HCIV"></a>
+                    <a name="//apple_ref/swift/Struct/HCI" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth3HCIV">HCI</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Bluetooth HCI</p>
+
+                        <a href="Structs/HCI.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">HCI</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth17CompanyIdentifierV"></a>
+                    <a name="//apple_ref/swift/Struct/CompanyIdentifier" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth17CompanyIdentifierV">CompanyIdentifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Identifies a Bluetooth Group member company.</p>
+
+                        <a href="Structs/CompanyIdentifier.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CompanyIdentifier</span><span class="p">:</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Error%20Handling"></a>
+                <a name="//apple_ref/swift/Section/Error Handling" class="dashAnchor"></a>
+                <a href="#/Error%20Handling">
+                  <h3 class="section-name">Error Handling</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16ATTErrorResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTErrorResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16ATTErrorResponseV">ATTErrorResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Error Response is used to state that a given request cannot be performed,
+and to provide the reason.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    The Write Command does not generate an Error Response.
+
+</div>
+
+                        <a href="Structs/ATTErrorResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTErrorResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span><span class="p">,</span> <span class="kt">Error</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/MTU%20Exchange"></a>
+                <a name="//apple_ref/swift/Section/MTU Exchange" class="dashAnchor"></a>
+                <a href="#/MTU%20Exchange">
+                  <h3 class="section-name">MTU Exchange</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth33ATTMaximumTransmissionUnitRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTMaximumTransmissionUnitRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth33ATTMaximumTransmissionUnitRequestV">ATTMaximumTransmissionUnitRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Exchange MTU Request</p>
+
+<p>The <em>Exchange MTU Request</em> is used by the client to inform the server of the client’s maximum receive MTU
+size and request the server to respond with its maximum receive MTU size.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This request shall only be sent once during a connection by the client. 
+The <em>Client Rx MTU</em> parameter shall be set to the maximum size of the attribute protocol PDU that the client can receive.
+
+</div>
+
+                        <a href="Structs/ATTMaximumTransmissionUnitRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTMaximumTransmissionUnitRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth34ATTMaximumTransmissionUnitResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTMaximumTransmissionUnitResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth34ATTMaximumTransmissionUnitResponseV">ATTMaximumTransmissionUnitResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Exchange MTU Response</p>
+
+<p>The <em>Exchange MTU Response</em> is sent in reply to a received <em>Exchange MTU Request</em>.</p>
+
+                        <a href="Structs/ATTMaximumTransmissionUnitResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTMaximumTransmissionUnitResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Find%20Information"></a>
+                <a name="//apple_ref/swift/Section/Find Information" class="dashAnchor"></a>
+                <a href="#/Find%20Information">
+                  <h3 class="section-name">Find Information</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth25ATTFindInformationRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTFindInformationRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth25ATTFindInformationRequestV">ATTFindInformationRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Find Information Request</p>
+
+<p>The <em>Find Information Request</em> is used to obtain the mapping of attribute handles with their associated types. 
+This allows a client to discover the list of attributes and their types on a server.</p>
+
+                        <a href="Structs/ATTFindInformationRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTFindInformationRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth26ATTFindInformationResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTFindInformationResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth26ATTFindInformationResponseV">ATTFindInformationResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Find Information Response</p>
+
+<p>The <em>Find Information Response</em> is sent in reply to a received <em>Find Information Request</em> 
+and contains information about this server.</p>
+
+                        <a href="Structs/ATTFindInformationResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTFindInformationResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth20ATTFindByTypeRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTFindByTypeRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth20ATTFindByTypeRequestV">ATTFindByTypeRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Find By Type Value Request</p>
+
+<p>The <em>Find By Type Value Request</em> is used to obtain the handles of attributes that have a 16-bit UUID attribute type 
+and attribute value. This allows the range of handles associated with a given attribute to be discovered when
+the attribute type determines the grouping of a set of attributes. </p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Generic Attribute Profile defines grouping of attributes by attribute type.
+
+</div>
+
+                        <a href="Structs/ATTFindByTypeRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTFindByTypeRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth21ATTFindByTypeResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTFindByTypeResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth21ATTFindByTypeResponseV">ATTFindByTypeResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Find By Type Value Response</p>
+
+<p>The <em>Find By Type Value Response</em> is sent in reply to a received <em>Find By Type Value Request</em>
+and contains information about this server.</p>
+
+                        <a href="Structs/ATTFindByTypeResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTFindByTypeResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Reading%20Attributes"></a>
+                <a name="//apple_ref/swift/Section/Reading Attributes" class="dashAnchor"></a>
+                <a href="#/Reading%20Attributes">
+                  <h3 class="section-name">Reading Attributes</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth20ATTReadByTypeRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadByTypeRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth20ATTReadByTypeRequestV">ATTReadByTypeRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read By Type Request</p>
+
+<p>The <em>Read By Type Request</em> is used to obtain the values of attributes where the
+attribute type is known but the handle is not known.</p>
+
+                        <a href="Structs/ATTReadByTypeRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadByTypeRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth21ATTReadByTypeResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadByTypeResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth21ATTReadByTypeResponseV">ATTReadByTypeResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read By Type Response</p>
+
+<p>The <em>Read By Type Response</em> is sent in reply to a received <em>Read By Type Request</em>
+and contains the handles and values of the attributes that have been read.</p>
+
+                        <a href="Structs/ATTReadByTypeResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadByTypeResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth14ATTReadRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth14ATTReadRequestV">ATTReadRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read Request</p>
+
+<p>The <em>Read Request</em> is used to request the server to read the value of an attribute 
+and return its value in a <em>Read Response</em>.</p>
+
+                        <a href="Structs/ATTReadRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth15ATTReadResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth15ATTReadResponseV">ATTReadResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read Response</p>
+
+<p>The <em>Read Response</em> is sent in reply to a received <em>Read Request</em> and contains
+the value of the attribute that has been read.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    The <em>Read Blob Request</em> would be used to read the remaining octets of a long attribute value.
+
+</div>
+
+                        <a href="Structs/ATTReadResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth18ATTReadBlobRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadBlobRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth18ATTReadBlobRequestV">ATTReadBlobRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read Blob Request</p>
+
+<p>The <em>Read Blob Request</em> is used to request the server to read part of the value of an attribute
+at a given offset and return a specific part of the value in a <em>Read Blob Response</em>.</p>
+
+                        <a href="Structs/ATTReadBlobRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadBlobRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth19ATTReadBlobResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadBlobResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth19ATTReadBlobResponseV">ATTReadBlobResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read Blob Response</p>
+
+<p>The <em>Read Blob Response</em> is sent in reply to a received <em>Read Blob Request</em>
+and contains part of the value of the attribute that has been read.</p>
+
+                        <a href="Structs/ATTReadBlobResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadBlobResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth22ATTReadMultipleRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadMultipleRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth22ATTReadMultipleRequestV">ATTReadMultipleRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read Multiple Request</p>
+
+<p>The <em>Read Multiple Request</em> is used to request the server to read two or more values
+of a set of attributes and return their values in a <em>Read Multiple Response</em>.</p>
+
+<p>Only values that have a known fixed size can be read, with the exception of the last value that can have a variable length.
+The knowledge of whether attributes have a known fixed size is defined in a higher layer specification.</p>
+
+                        <a href="Structs/ATTReadMultipleRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadMultipleRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth23ATTReadMultipleResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadMultipleResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth23ATTReadMultipleResponseV">ATTReadMultipleResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read Multiple Response</p>
+
+<p>The read response is sent in reply to a received <em>Read Multiple Request</em> and
+contains the values of the attributes that have been read.</p>
+
+                        <a href="Structs/ATTReadMultipleResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadMultipleResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth25ATTReadByGroupTypeRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadByGroupTypeRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth25ATTReadByGroupTypeRequestV">ATTReadByGroupTypeRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read by Group Type Request</p>
+
+<p>The <em>Read By Group Type Request</em> is used to obtain the values of attributes where the attribute type is known,
+the type of a grouping attribute as defined by a higher layer specification, but the handle is not known.</p>
+
+                        <a href="Structs/ATTReadByGroupTypeRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadByGroupTypeRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth26ATTReadByGroupTypeResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTReadByGroupTypeResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth26ATTReadByGroupTypeResponseV">ATTReadByGroupTypeResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read By Group Type Response</p>
+
+<p>The <em>Read By Group Type Response</em> is sent in reply to a received <em>Read By Group Type Request</em>
+and contains the handles and values of the attributes that have been read.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    The <em>Read Blob Request</em> would be used to read the remaining octets of a long attribute value.
+
+</div>
+
+                        <a href="Structs/ATTReadByGroupTypeResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTReadByGroupTypeResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Writing%20Attributes"></a>
+                <a name="//apple_ref/swift/Section/Writing Attributes" class="dashAnchor"></a>
+                <a href="#/Writing%20Attributes">
+                  <h3 class="section-name">Writing Attributes</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth15ATTWriteRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTWriteRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth15ATTWriteRequestV">ATTWriteRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Write Request</p>
+
+<p>The <em>Write Request</em> is used to request the server to write the value of an attribute
+and acknowledge that this has been achieved in a <em>Write Response</em>.</p>
+
+                        <a href="Structs/ATTWriteRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTWriteRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16ATTWriteResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTWriteResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16ATTWriteResponseV">ATTWriteResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Write Response</p>
+
+<p>The <em>Write Response</em> is sent in reply to a valid <em>Write Request</em>
+and acknowledges that the attribute has been successfully written.</p>
+
+                        <a href="Structs/ATTWriteResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTWriteResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth15ATTWriteCommandV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTWriteCommand" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth15ATTWriteCommandV">ATTWriteCommand</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Write Command</p>
+
+<p>The <em>Write Command</em> is used to request the server to write the value of an attribute, typically into a control-point attribute.</p>
+
+                        <a href="Structs/ATTWriteCommand.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTWriteCommand</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth21ATTSignedWriteCommandV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTSignedWriteCommand" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth21ATTSignedWriteCommandV">ATTSignedWriteCommand</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Signed Write Command</p>
+
+<p>The Signed Write Command is used to request the server to write the value of an attribute with an authentication signature, 
+typically into a control-point attribute.</p>
+
+                        <a href="Structs/ATTSignedWriteCommand.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTSignedWriteCommand</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Queued%20Writes"></a>
+                <a name="//apple_ref/swift/Section/Queued Writes" class="dashAnchor"></a>
+                <a href="#/Queued%20Writes">
+                  <h3 class="section-name">Queued Writes</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth22ATTPrepareWriteRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTPrepareWriteRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth22ATTPrepareWriteRequestV">ATTPrepareWriteRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Prepare Write Request</p>
+
+<p>The <em>Prepare Write Request</em> is used to request the server to prepare to write the value of an attribute. 
+The server will respond to this request with a <em>Prepare Write Response</em>, 
+so that the client can verify that the value was received correctly.</p>
+
+                        <a href="Structs/ATTPrepareWriteRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTPrepareWriteRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth23ATTPrepareWriteResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTPrepareWriteResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth23ATTPrepareWriteResponseV">ATTPrepareWriteResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Prepare Write Response
+The <em>Prepare Write Response</em> is sent in response to a received <em>Prepare Write Request</em>
+and acknowledges that the value has been successfully received and placed in the prepare write queue.</p>
+
+                        <a href="Structs/ATTPrepareWriteResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTPrepareWriteResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth22ATTExecuteWriteRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTExecuteWriteRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth22ATTExecuteWriteRequestV">ATTExecuteWriteRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Execute Write Request</p>
+
+<p>The <em>Execute Write Request</em> is used to request the server to write or cancel the write 
+of all the prepared values currently held in the prepare queue from this client. 
+This request shall be handled by the server as an atomic operation.</p>
+
+                        <a href="Structs/ATTExecuteWriteRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTExecuteWriteRequest</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth23ATTExecuteWriteResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTExecuteWriteResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth23ATTExecuteWriteResponseV">ATTExecuteWriteResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <em>Execute Write Response</em> is sent in response to a received <em>Execute Write Request</em>.</p>
+
+                        <a href="Structs/ATTExecuteWriteResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTExecuteWriteResponse</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Server%20Initiated"></a>
+                <a name="//apple_ref/swift/Section/Server Initiated" class="dashAnchor"></a>
+                <a href="#/Server%20Initiated">
+                  <h3 class="section-name">Server Initiated</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth26ATTHandleValueNotificationV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTHandleValueNotification" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth26ATTHandleValueNotificationV">ATTHandleValueNotification</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handle Value Notification</p>
+
+<p>A server can send a notification of an attribute’s value at any time.</p>
+
+                        <a href="Structs/ATTHandleValueNotification.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTHandleValueNotification</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth24ATTHandleValueIndicationV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTHandleValueIndication" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth24ATTHandleValueIndicationV">ATTHandleValueIndication</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handle Value Indication</p>
+
+<p>A server can send an indication of an attribute’s value.</p>
+
+                        <a href="Structs/ATTHandleValueIndication.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTHandleValueIndication</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth26ATTHandleValueConfirmationV"></a>
+                    <a name="//apple_ref/swift/Struct/ATTHandleValueConfirmation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth26ATTHandleValueConfirmationV">ATTHandleValueConfirmation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handle Value Confirmation</p>
+
+<p>The <em>Handle Value Confirmation</em> is sent in response to a received <em>Handle Value Indication</em>
+and confirms that the client has received an indication of the given attribute.</p>
+
+                        <a href="Structs/ATTHandleValueConfirmation.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATTHandleValueConfirmation</span><span class="p">:</span> <span class="kt"><a href="Protocols/ATTProtocolDataUnit.html">ATTProtocolDataUnit</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth4GATTV"></a>
+                    <a name="//apple_ref/swift/Struct/GATT" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth4GATTV">GATT</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Bluetooth GATT protocol</p>
+
+                        <a href="Structs/GATT.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GATT</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/BitMaskOptionSet"></a>
+                <a name="//apple_ref/swift/Section/BitMaskOptionSet" class="dashAnchor"></a>
+                <a href="#/BitMaskOptionSet">
+                  <h3 class="section-name">BitMaskOptionSet</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth16BitMaskOptionSetV"></a>
+                    <a name="//apple_ref/swift/Struct/BitMaskOptionSet" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth16BitMaskOptionSetV">BitMaskOptionSet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Integer-backed array type for <code><a href="Protocols/BitMaskOption.html">BitMaskOption</a></code>.</p>
+
+<p>The elements are packed in the integer with bitwise math and stored on the stack.</p>
+
+                        <a href="Structs/BitMaskOptionSet.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BitMaskOptionSet</span> <span class="o">&lt;</span><span class="kt">Element</span><span class="p">:</span> <span class="kt"><a href="Protocols/BitMaskOption.html">BitMaskOption</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth7AddressV"></a>
+                    <a name="//apple_ref/swift/Struct/Address" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth7AddressV">Address</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Bluetooth address.</p>
+
+                        <a href="Structs/Address.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Address</span><span class="p">:</span> <span class="kt"><a href="Protocols/ByteValue.html">ByteValue</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Protocol%20Definitions"></a>
+                <a name="//apple_ref/swift/Section/Protocol Definitions" class="dashAnchor"></a>
+                <a href="#/Protocol%20Definitions">
+                  <h3 class="section-name">Protocol Definitions</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth3ATTV"></a>
+                    <a name="//apple_ref/swift/Struct/ATT" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth3ATTV">ATT</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Bluetooth ATT protocol</p>
+
+                        <a href="Structs/ATT.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ATT</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Supporting%20Types"></a>
+                <a name="//apple_ref/swift/Section/Supporting Types" class="dashAnchor"></a>
+                <a href="#/Supporting%20Types">
+                  <h3 class="section-name">Supporting Types</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth25LowEnergyScanTimeIntervalV"></a>
+                    <a name="//apple_ref/swift/Struct/LowEnergyScanTimeInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth25LowEnergyScanTimeIntervalV">LowEnergyScanTimeInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>LE Scan Time Interval</p>
+
+<p>Range: 0x0004 to 0x4000
+Time = N * 0.625 msec
+Time Range: 2.5 msec to 10240 msec</p>
+
+                        <a href="Structs/LowEnergyScanTimeInterval.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">LowEnergyScanTimeInterval</span><span class="p">:</span> <span class="kt">RawRepresentable</span><span class="p">,</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">Comparable</span><span class="p">,</span> <span class="kt">Hashable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Bluetooth27LowEnergySupervisionTimeoutV"></a>
+                    <a name="//apple_ref/swift/Struct/LowEnergySupervisionTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Bluetooth27LowEnergySupervisionTimeoutV">LowEnergySupervisionTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Supervision Timeout</p>
+
+<p>Supervision timeout for the LE Link.
+Range: 0x000A to 0x0C80
+Time = N * 10 msec
+Time Range: 100 msec to 32 seconds</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    [Vol 6] Part B, Section 4.5.2
+
+</div>
+
+                        <a href="Structs/LowEnergySupervisionTimeout.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">LowEnergySupervisionTimeout</span><span class="p">:</span> <span class="kt">RawRepresentable</span><span class="p">,</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">Hashable</span><span class="p">,</span> <span class="kt">Comparable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">PureSwift</a>. All rights reserved. (Last updated: 2018-03-15)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

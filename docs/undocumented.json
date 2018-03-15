@@ -1,0 +1,2483 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 16,
+      "symbol": "ATT.PSM",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 18,
+      "symbol": "ATT.CID",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 20,
+      "symbol": "ATT.MinimumPDULength",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 28,
+      "symbol": "ATT.MaximumValueLength",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 33,
+      "symbol": "ATT.MTU.LowEnergy",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 35,
+      "symbol": "ATT.MTU.LowEnergy.Default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 37,
+      "symbol": "ATT.MTU.LowEnergy.Maximum",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 112,
+      "symbol": "ATTOpcode.commandMask",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 113,
+      "symbol": "ATTOpcode.signedMask",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 119,
+      "symbol": "ATTOpcode.maximumTransmissionUnitRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 120,
+      "symbol": "ATTOpcode.maximumTransmissionUnitResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 123,
+      "symbol": "ATTOpcode.findInformationRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 124,
+      "symbol": "ATTOpcode.findInformationResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 127,
+      "symbol": "ATTOpcode.findByTypeRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 128,
+      "symbol": "ATTOpcode.findByTypeResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 131,
+      "symbol": "ATTOpcode.readByTypeRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 132,
+      "symbol": "ATTOpcode.readByTypeResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 135,
+      "symbol": "ATTOpcode.readRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 136,
+      "symbol": "ATTOpcode.readResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 139,
+      "symbol": "ATTOpcode.readBlobRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 140,
+      "symbol": "ATTOpcode.readBlobResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 143,
+      "symbol": "ATTOpcode.readMultipleRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 144,
+      "symbol": "ATTOpcode.readMultipleResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 147,
+      "symbol": "ATTOpcode.readByGroupTypeRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 148,
+      "symbol": "ATTOpcode.readByGroupTypeResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 151,
+      "symbol": "ATTOpcode.writeRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 152,
+      "symbol": "ATTOpcode.writeResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 153,
+      "symbol": "ATTOpcode.writeCommand",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 154,
+      "symbol": "ATTOpcode.signedWriteCommand",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 157,
+      "symbol": "ATTOpcode.preparedWriteRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 158,
+      "symbol": "ATTOpcode.preparedWriteResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 161,
+      "symbol": "ATTOpcode.executeWriteRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 162,
+      "symbol": "ATTOpcode.executeWriteResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 165,
+      "symbol": "ATTOpcode.handleValueNotification",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 166,
+      "symbol": "ATTOpcode.handleValueIndication",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 167,
+      "symbol": "ATTOpcode.handleValueConfirmation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 250,
+      "symbol": "ATTOpcodeType.request",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 251,
+      "symbol": "ATTOpcodeType.response",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 252,
+      "symbol": "ATTOpcodeType.command",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 253,
+      "symbol": "ATTOpcodeType.indication",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 254,
+      "symbol": "ATTOpcodeType.notification",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 255,
+      "symbol": "ATTOpcodeType.confirmation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 264,
+      "symbol": "ATTAttributePermission.read",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 265,
+      "symbol": "ATTAttributePermission.write",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 268,
+      "symbol": "ATTAttributePermission.encrypt",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 269,
+      "symbol": "ATTAttributePermission.readEncrypt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 270,
+      "symbol": "ATTAttributePermission.writeEncrypt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 275,
+      "symbol": "ATTAttributePermission.authentication",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 276,
+      "symbol": "ATTAttributePermission.readAuthentication",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 277,
+      "symbol": "ATTAttributePermission.writeAuthentication",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 280,
+      "symbol": "ATTAttributePermission.authorized",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATT.swift",
+      "line": 281,
+      "symbol": "ATTAttributePermission.noAuthorization",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 35,
+      "symbol": "ATTErrorResponse.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 46,
+      "symbol": "ATTErrorResponse.init(requestOpcode:attributeHandle:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 99,
+      "symbol": "ATTMaximumTransmissionUnitRequest.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 104,
+      "symbol": "ATTMaximumTransmissionUnitRequest.init(clientMTU:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 143,
+      "symbol": "ATTMaximumTransmissionUnitResponse.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 148,
+      "symbol": "ATTMaximumTransmissionUnitResponse.init(serverMTU:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 190,
+      "symbol": "ATTFindInformationRequest.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 192,
+      "symbol": "ATTFindInformationRequest.startHandle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 194,
+      "symbol": "ATTFindInformationRequest.endHandle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 196,
+      "symbol": "ATTFindInformationRequest.init(startHandle:endHandle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 249,
+      "symbol": "ATTFindInformationResponse.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 276,
+      "symbol": "ATTFindInformationResponse.Format",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 284,
+      "symbol": "ATTFindInformationResponse.Format.init(uuid:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 293,
+      "symbol": "ATTFindInformationResponse.Format.length",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 302,
+      "symbol": "ATTFindInformationResponse.Data",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 321,
+      "symbol": "ATTFindInformationResponse.Data.init(byteValue:format:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 369,
+      "symbol": "ATTFindInformationResponse.Data.byteValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 429,
+      "symbol": "ATTFindByTypeRequest.init(startHandle:endHandle:attributeType:attributeValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 490,
+      "symbol": "ATTFindByTypeResponse.init(handlesInformationList:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 561,
+      "symbol": "ATTFindByTypeResponse.HandlesInformation.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 569,
+      "symbol": "ATTFindByTypeResponse.HandlesInformation.init(foundAttribute:groupEnd:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 575,
+      "symbol": "ATTFindByTypeResponse.HandlesInformation.init(byteValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 584,
+      "symbol": "ATTFindByTypeResponse.HandlesInformation.byteValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 613,
+      "symbol": "ATTReadByTypeRequest.init(startHandle:endHandle:attributeType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 689,
+      "symbol": "ATTReadByTypeResponse.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 770,
+      "symbol": "ATTReadByTypeResponse.AttributeData.init(handle:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 776,
+      "symbol": "ATTReadByTypeResponse.AttributeData.init(byteValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 795,
+      "symbol": "ATTReadByTypeResponse.AttributeData.byteValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 811,
+      "symbol": "ATTReadRequest.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 813,
+      "symbol": "ATTReadRequest.handle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 815,
+      "symbol": "ATTReadRequest.init(handle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 857,
+      "symbol": "ATTReadResponse.init(attributeValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 895,
+      "symbol": "ATTReadBlobRequest.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 903,
+      "symbol": "ATTReadBlobRequest.init(handle:offset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 952,
+      "symbol": "ATTReadBlobResponse.init(partAttributeValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 997,
+      "symbol": "ATTReadMultipleRequest.handles",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 999,
+      "symbol": "ATTReadMultipleRequest.init(handles:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1071,
+      "symbol": "ATTReadMultipleResponse.values",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1073,
+      "symbol": "ATTReadMultipleResponse.init(values:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1128,
+      "symbol": "ATTReadByGroupTypeRequest.init(startHandle:endHandle:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1206,
+      "symbol": "ATTReadByGroupTypeResponse.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1276,
+      "symbol": "ATTReadByGroupTypeResponse.AttributeData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1290,
+      "symbol": "ATTReadByGroupTypeResponse.AttributeData.init(attributeHandle:endGroupHandle:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1297,
+      "symbol": "ATTReadByGroupTypeResponse.AttributeData.init(byteValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1315,
+      "symbol": "ATTReadByGroupTypeResponse.AttributeData.byteValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1345,
+      "symbol": "ATTWriteRequest.init(handle:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1392,
+      "symbol": "ATTWriteResponse.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1394,
+      "symbol": "ATTWriteResponse.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1433,
+      "symbol": "ATTWriteCommand.init(handle:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1495,
+      "symbol": "ATTSignedWriteCommand.init(handle:value:signature:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1561,
+      "symbol": "ATTPrepareWriteRequest.init(handle:offset:partValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1625,
+      "symbol": "ATTPrepareWriteResponse.init(handle:offset:partValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1678,
+      "symbol": "ATTExecuteWriteRequest.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1680,
+      "symbol": "ATTExecuteWriteRequest.flag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1682,
+      "symbol": "ATTExecuteWriteRequest.init(flag:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1711,
+      "symbol": "ATTExecuteWriteRequest.Flag",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1719,
+      "symbol": "ATTExecuteWriteRequest.Flag.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1727,
+      "symbol": "ATTExecuteWriteResponse.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1729,
+      "symbol": "ATTExecuteWriteResponse.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1859,
+      "symbol": "ATTHandleValueConfirmation.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/ATTProtocolDataUnit.swift",
+      "line": 1861,
+      "symbol": "ATTHandleValueConfirmation.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/Address.swift",
+      "line": 20,
+      "symbol": "Address.zero",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/Address.swift",
+      "line": 22,
+      "symbol": "Address.any",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/Address.swift",
+      "line": 24,
+      "symbol": "Address.none",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/Address.swift",
+      "line": 47,
+      "symbol": "Address.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/Address.swift",
+      "line": 55,
+      "symbol": "Address.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/AdvertisingChannelHeader.swift",
+      "line": 39,
+      "symbol": "AdvertisingChannelHeader.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 74,
+      "symbol": "BitMaskOption.from(rawValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 102,
+      "symbol": "BitMaskOptionSet.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 107,
+      "symbol": "BitMaskOptionSet.all",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 113,
+      "symbol": "BitMaskOptionSet.insert(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 119,
+      "symbol": "BitMaskOptionSet.removeAll()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 125,
+      "symbol": "BitMaskOptionSet.contains(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 130,
+      "symbol": "BitMaskOptionSet.contains(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 141,
+      "symbol": "BitMaskOptionSet.containsAll",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 146,
+      "symbol": "BitMaskOptionSet.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 151,
+      "symbol": "BitMaskOptionSet.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 161,
+      "symbol": "BitMaskOptionSet.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BitMaskOption.swift",
+      "line": 171,
+      "symbol": "BitMaskOptionSet.set",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BluetoothUUID.swift",
+      "line": 14,
+      "symbol": "BluetoothUUID.bit16",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BluetoothUUID.swift",
+      "line": 15,
+      "symbol": "BluetoothUUID.bit32",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BluetoothUUID.swift",
+      "line": 16,
+      "symbol": "BluetoothUUID.bit128",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BluetoothUUID.swift",
+      "line": 140,
+      "symbol": "BluetoothUUID.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BluetoothUUID.swift",
+      "line": 173,
+      "symbol": "BluetoothUUID.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BluetoothUUID.swift",
+      "line": 276,
+      "symbol": "BluetoothUUID.init(littleEndianData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BluetoothUUID.swift",
+      "line": 284,
+      "symbol": "BluetoothUUID.littleEndianData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BluetoothUUID.swift",
+      "line": 351,
+      "symbol": "BluetoothUUID.init(coreBluetooth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/BluetoothUUID.swift",
+      "line": 362,
+      "symbol": "BluetoothUUID.toCoreBluetooth()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 17,
+      "symbol": "GATT.UUID.primaryService",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 18,
+      "symbol": "GATT.UUID.secondaryService",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 19,
+      "symbol": "GATT.UUID.include",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 20,
+      "symbol": "GATT.UUID.characteristic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 79,
+      "symbol": "GATT.CharacteristicProperty.broadcast",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 80,
+      "symbol": "GATT.CharacteristicProperty.read",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 81,
+      "symbol": "GATT.CharacteristicProperty.writeWithoutResponse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 82,
+      "symbol": "GATT.CharacteristicProperty.write",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 83,
+      "symbol": "GATT.CharacteristicProperty.notify",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 84,
+      "symbol": "GATT.CharacteristicProperty.indicate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATT.swift",
+      "line": 89,
+      "symbol": "GATT.CharacteristicProperty.extendedProperties",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 18,
+      "symbol": "GATT.Service.uuid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 20,
+      "symbol": "GATT.Service.primary",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 22,
+      "symbol": "GATT.Service.characteristics",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 24,
+      "symbol": "GATT.Service.includedServices",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 26,
+      "symbol": "GATT.Service.init(uuid:primary:characteristics:includedServices:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 50,
+      "symbol": "GATT.Characteristic.uuid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 52,
+      "symbol": "GATT.Characteristic.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 54,
+      "symbol": "GATT.Characteristic.permissions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 56,
+      "symbol": "GATT.Characteristic.properties",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 58,
+      "symbol": "GATT.Characteristic.descriptors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 60,
+      "symbol": "GATT.Characteristic.init(uuid:value:permissions:properties:descriptors:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 77,
+      "symbol": "GATT.Descriptor.uuid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 79,
+      "symbol": "GATT.Descriptor.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 81,
+      "symbol": "GATT.Descriptor.permissions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/GATTAttributes.swift",
+      "line": 83,
+      "symbol": "GATT.Descriptor.init(uuid:value:permissions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 14,
+      "symbol": "HCI.maximumDeviceCount",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 16,
+      "symbol": "HCI.maximumACLSize",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 18,
+      "symbol": "HCI.maximumSCOSize",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 20,
+      "symbol": "HCI.maximumEventSize",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 22,
+      "symbol": "HCI.maximumFrameSize",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 24,
+      "symbol": "HCI.maximumNameLength",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 26,
+      "symbol": "HCI.typeLength",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 70,
+      "symbol": "HCIStatus.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 71,
+      "symbol": "HCIStatus.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCI.swift",
+      "line": 96,
+      "symbol": "HCIStatus.error",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCICommand.swift",
+      "line": 12,
+      "symbol": "HCICommand.opcodeGroupField",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCICommand.swift",
+      "line": 14,
+      "symbol": "HCICommand.init(rawValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCICommand.swift",
+      "line": 16,
+      "symbol": "HCICommand.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCICommand.swift",
+      "line": 26,
+      "symbol": "HCICommandParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCICommand.swift",
+      "line": 40,
+      "symbol": "HCICommandReturnParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCICommand.swift",
+      "line": 46,
+      "symbol": "HCICommandReturnParameter.init(byteValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIEvent.swift",
+      "line": 18,
+      "symbol": "HCIEvent.init(rawValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIEvent.swift",
+      "line": 20,
+      "symbol": "HCIEvent.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIEvent.swift",
+      "line": 23,
+      "symbol": "HCIEventParameter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEvent.swift",
+      "line": 12,
+      "symbol": "HCIGeneralEvent.inquiryComplete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEvent.swift",
+      "line": 13,
+      "symbol": "HCIGeneralEvent.inquiryResult",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEvent.swift",
+      "line": 14,
+      "symbol": "HCIGeneralEvent.connectionComplete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEvent.swift",
+      "line": 18,
+      "symbol": "HCIGeneralEvent.remoteNameRequestComplete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEvent.swift",
+      "line": 19,
+      "symbol": "HCIGeneralEvent.commandComplete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEvent.swift",
+      "line": 20,
+      "symbol": "HCIGeneralEvent.commandStatus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEvent.swift",
+      "line": 22,
+      "symbol": "HCIGeneralEvent.lowEnergyMeta",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 15,
+      "symbol": "HCIGeneralEvent.CommandCompleteParameter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 22,
+      "symbol": "HCIGeneralEvent.CommandCompleteParameter.opcode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 24,
+      "symbol": "HCIGeneralEvent.CommandCompleteParameter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 36,
+      "symbol": "HCIGeneralEvent.CommandStatusParameter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 41,
+      "symbol": "HCIGeneralEvent.CommandStatusParameter.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 42,
+      "symbol": "HCIGeneralEvent.CommandStatusParameter.ncmd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 43,
+      "symbol": "HCIGeneralEvent.CommandStatusParameter.opcode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 45,
+      "symbol": "HCIGeneralEvent.CommandStatusParameter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 58,
+      "symbol": "HCIGeneralEvent.RemoteNameRequestCompleteParameter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 63,
+      "symbol": "HCIGeneralEvent.RemoteNameRequestCompleteParameter.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 64,
+      "symbol": "HCIGeneralEvent.RemoteNameRequestCompleteParameter.address",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 65,
+      "symbol": "HCIGeneralEvent.RemoteNameRequestCompleteParameter.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 67,
+      "symbol": "HCIGeneralEvent.RemoteNameRequestCompleteParameter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 86,
+      "symbol": "HCIGeneralEvent.LowEnergyMetaParameter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 91,
+      "symbol": "HCIGeneralEvent.LowEnergyMetaParameter.subevent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIGeneralEventParameter.swift",
+      "line": 92,
+      "symbol": "HCIGeneralEvent.LowEnergyMetaParameter.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 12,
+      "symbol": "HCIVersion.v1_0b",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 13,
+      "symbol": "HCIVersion.v1_1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 14,
+      "symbol": "HCIVersion.v1_2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 15,
+      "symbol": "HCIVersion.v2_0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 16,
+      "symbol": "HCIVersion.v2_1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 17,
+      "symbol": "HCIVersion.v3_0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 18,
+      "symbol": "HCIVersion.v4_0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 19,
+      "symbol": "HCIVersion.v4_1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 20,
+      "symbol": "HCIVersion.v4_2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/HCIVersion.swift",
+      "line": 21,
+      "symbol": "HCIVersion.v5_0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/Hexadecimal.swift",
+      "line": 11,
+      "symbol": "UInt8.toHexadecimal()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/Integer.swift",
+      "line": 11,
+      "symbol": "Int64.toInt()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/Integer.swift",
+      "line": 22,
+      "symbol": "Int.toInt64()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommand.swift",
+      "line": null,
+      "symbol": "LinkControlCommand",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommand.swift",
+      "line": 9,
+      "symbol": "LinkControlCommand",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommand.swift",
+      "line": 11,
+      "symbol": "LinkControlCommand.opcodeGroupField",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 17,
+      "symbol": "LinkControlCommand.InquiryParameter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 19,
+      "symbol": "LinkControlCommand.InquiryParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 23,
+      "symbol": "LinkControlCommand.InquiryParameter.lap",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 25,
+      "symbol": "LinkControlCommand.InquiryParameter.length",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 27,
+      "symbol": "LinkControlCommand.InquiryParameter.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 29,
+      "symbol": "LinkControlCommand.InquiryParameter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 37,
+      "symbol": "LinkControlCommand.RemoteNameRequestParameter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 39,
+      "symbol": "LinkControlCommand.RemoteNameRequestParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 43,
+      "symbol": "LinkControlCommand.RemoteNameRequestParameter.address",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 45,
+      "symbol": "LinkControlCommand.RemoteNameRequestParameter.pscanRepMode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 47,
+      "symbol": "LinkControlCommand.RemoteNameRequestParameter.pscanMode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 49,
+      "symbol": "LinkControlCommand.RemoteNameRequestParameter.clockOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 51,
+      "symbol": "LinkControlCommand.RemoteNameRequestParameter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LinkControlCommandParameter.swift",
+      "line": 53,
+      "symbol": "LinkControlCommand.RemoteNameRequestParameter.init(byteValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyAddressType.swift",
+      "line": 32,
+      "symbol": "LowEnergyAddressType.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 12,
+      "symbol": "LowEnergyCommand.opcodeGroupField",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 14,
+      "symbol": "LowEnergyCommand.setEventMask",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 15,
+      "symbol": "LowEnergyCommand.readBufferSize",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 16,
+      "symbol": "LowEnergyCommand.readLocalSupportedFeatures",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 17,
+      "symbol": "LowEnergyCommand.setRandomAddress",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 18,
+      "symbol": "LowEnergyCommand.setAdvertisingParameters",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 19,
+      "symbol": "LowEnergyCommand.readAdvertisingChannelTXPower",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 20,
+      "symbol": "LowEnergyCommand.setAdvertisingData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 21,
+      "symbol": "LowEnergyCommand.setScanResponseData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 22,
+      "symbol": "LowEnergyCommand.setAdvertiseEnable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 23,
+      "symbol": "LowEnergyCommand.setScanParameters",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 24,
+      "symbol": "LowEnergyCommand.setScanEnable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 25,
+      "symbol": "LowEnergyCommand.createConnection",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 26,
+      "symbol": "LowEnergyCommand.createConnectionCancel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 27,
+      "symbol": "LowEnergyCommand.readWhiteListSize",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 28,
+      "symbol": "LowEnergyCommand.clearWhiteList",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 29,
+      "symbol": "LowEnergyCommand.addDeviceToWhiteList",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 30,
+      "symbol": "LowEnergyCommand.removeDeviceFromWhiteList",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 31,
+      "symbol": "LowEnergyCommand.connectionUpdate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 32,
+      "symbol": "LowEnergyCommand.setHostChannelClassification",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 33,
+      "symbol": "LowEnergyCommand.readChannelMap",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 34,
+      "symbol": "LowEnergyCommand.readRemoteUsedFeatures",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 35,
+      "symbol": "LowEnergyCommand.encrypt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 36,
+      "symbol": "LowEnergyCommand.random",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 37,
+      "symbol": "LowEnergyCommand.startEncryption",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 38,
+      "symbol": "LowEnergyCommand.ltkReply",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 39,
+      "symbol": "LowEnergyCommand.ltkNegativeReply",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 40,
+      "symbol": "LowEnergyCommand.readSupportedStates",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 41,
+      "symbol": "LowEnergyCommand.receiverTest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 42,
+      "symbol": "LowEnergyCommand.transmitterTest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 43,
+      "symbol": "LowEnergyCommand.testEnd",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 44,
+      "symbol": "LowEnergyCommand.addDeviceToResolvedList",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 45,
+      "symbol": "LowEnergyCommand.removeDeviceFromResolvedList",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 46,
+      "symbol": "LowEnergyCommand.clearResolvedList",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 47,
+      "symbol": "LowEnergyCommand.readResolvedListSize",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommand.swift",
+      "line": 48,
+      "symbol": "LowEnergyCommand.setAddressResolutionEnable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 18,
+      "symbol": "LowEnergyCommand.SetAdvertisingDataParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 27,
+      "symbol": "LowEnergyCommand.SetAdvertisingDataParameter.init(data:length:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 35,
+      "symbol": "LowEnergyCommand.SetAdvertisingDataParameter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 52,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 58,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.advertisingType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 60,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.addressType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 65,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.channelMap",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 67,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.filterPolicy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 69,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.init(interval:advertisingType:addressType:directAddress:channelMap:filterPolicy:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 97,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.AdvertisingType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 111,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.AdvertisingType.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 114,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.ChannelMap",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 118,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.ChannelMap.channel37",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 119,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.ChannelMap.channel38",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 120,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.ChannelMap.channel39",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 122,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.ChannelMap.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 125,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.FilterPolicy",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 143,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.FilterPolicy.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 145,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.FilterPolicy.init(whiteListScan:whiteListConnect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 156,
+      "symbol": "LowEnergyCommand.SetAdvertisingParametersParameter.FilterPolicy.whiteList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 171,
+      "symbol": "LowEnergyCommand.SetAdvertiseEnableParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 174,
+      "symbol": "LowEnergyCommand.SetAdvertiseEnableParameter.enabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 176,
+      "symbol": "LowEnergyCommand.SetAdvertiseEnableParameter.init(enabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 192,
+      "symbol": "LowEnergyCommand.SetScanResponseDataParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 201,
+      "symbol": "LowEnergyCommand.SetScanResponseDataParameter.init(data:length:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 209,
+      "symbol": "LowEnergyCommand.SetScanResponseDataParameter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 227,
+      "symbol": "LowEnergyCommand.SetScanEnableParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 269,
+      "symbol": "LowEnergyCommand.SetScanParametersParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 288,
+      "symbol": "LowEnergyCommand.SetScanParametersParameter.filterPolicy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 290,
+      "symbol": "LowEnergyCommand.SetScanParametersParameter.init(type:interval:window:addressType:filterPolicy:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 325,
+      "symbol": "LowEnergyCommand.SetScanParametersParameter.ScanType.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 328,
+      "symbol": "LowEnergyCommand.SetScanParametersParameter.FilterPolicy",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 357,
+      "symbol": "LowEnergyCommand.CreateConnectionParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 415,
+      "symbol": "LowEnergyCommand.CreateConnectionParameter.init(scanInterval:scanWindow:initiatorFilterPolicy:peerAddressType:peerAddress:ownAddressType:connectionInterval:connectionLatency:supervisionTimeout:connectionLength:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 560,
+      "symbol": "LowEnergyCommand.CreateConnectionParameter.ConnectionLatency.zero",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 564,
+      "symbol": "LowEnergyCommand.CreateConnectionParameter.ConnectionLatency.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 644,
+      "symbol": "LowEnergyCommand.ReadWhiteListSizeReturnParameter.command",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyCommandParameter.swift",
+      "line": 650,
+      "symbol": "LowEnergyCommand.ReadWhiteListSizeReturnParameter.init(byteValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 198,
+      "symbol": "LowEnergyEvent.ConnectionCompleteParameter.MasterClockAccuracy.ppm500",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 199,
+      "symbol": "LowEnergyEvent.ConnectionCompleteParameter.MasterClockAccuracy.ppm250",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 200,
+      "symbol": "LowEnergyEvent.ConnectionCompleteParameter.MasterClockAccuracy.ppm150",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 201,
+      "symbol": "LowEnergyEvent.ConnectionCompleteParameter.MasterClockAccuracy.ppm100",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 202,
+      "symbol": "LowEnergyEvent.ConnectionCompleteParameter.MasterClockAccuracy.ppm75",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 203,
+      "symbol": "LowEnergyEvent.ConnectionCompleteParameter.MasterClockAccuracy.ppm50",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 204,
+      "symbol": "LowEnergyEvent.ConnectionCompleteParameter.MasterClockAccuracy.ppm30",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 205,
+      "symbol": "LowEnergyEvent.ConnectionCompleteParameter.MasterClockAccuracy.ppm20",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 207,
+      "symbol": "LowEnergyEvent.ConnectionCompleteParameter.MasterClockAccuracy.ppm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 235,
+      "symbol": "LowEnergyEvent.AdvertisingReportEventParameter.reports",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 268,
+      "symbol": "LowEnergyEvent.AdvertisingReportEventParameter.Report",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 270,
+      "symbol": "LowEnergyEvent.AdvertisingReportEventParameter.Report.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 272,
+      "symbol": "LowEnergyEvent.AdvertisingReportEventParameter.Report.event",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 274,
+      "symbol": "LowEnergyEvent.AdvertisingReportEventParameter.Report.addressType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 276,
+      "symbol": "LowEnergyEvent.AdvertisingReportEventParameter.Report.address",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 288,
+      "symbol": "LowEnergyEvent.AdvertisingReportEventParameter.Report.init(byteValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/LowEnergyEventParameter.swift",
+      "line": 325,
+      "symbol": "LowEnergyEvent.AdvertisingReportEventParameter.Report.Event",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 12,
+      "symbol": "ProtocolServiceMultiplexer.sdp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 13,
+      "symbol": "ProtocolServiceMultiplexer.rfcomm",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 14,
+      "symbol": "ProtocolServiceMultiplexer.tcs",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 15,
+      "symbol": "ProtocolServiceMultiplexer.ctp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 16,
+      "symbol": "ProtocolServiceMultiplexer.bnep",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 17,
+      "symbol": "ProtocolServiceMultiplexer.hidc",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 18,
+      "symbol": "ProtocolServiceMultiplexer.hidi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 19,
+      "symbol": "ProtocolServiceMultiplexer.upnp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 20,
+      "symbol": "ProtocolServiceMultiplexer.avctp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/PSM.swift",
+      "line": 21,
+      "symbol": "ProtocolServiceMultiplexer.avdtp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/Range.swift",
+      "line": 11,
+      "symbol": "Range.isSubset(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/String.swift",
+      "line": 13,
+      "symbol": "String.init(UTF8Data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/String.swift",
+      "line": 49,
+      "symbol": "String.toUTF8Data()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/String.swift",
+      "line": 54,
+      "symbol": "String.substring(range:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UInt128.swift",
+      "line": 64,
+      "symbol": "UInt128.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UInt128.swift",
+      "line": 66,
+      "symbol": "UInt128.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UInt128.swift",
+      "line": 73,
+      "symbol": "UInt128.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UInt128.swift",
+      "line": 161,
+      "symbol": "UInt128.init(uuid:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UInt128.swift",
+      "line": 172,
+      "symbol": "Foundation.UUID.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UUID.swift",
+      "line": 13,
+      "symbol": "UUID.length",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UUID.swift",
+      "line": 14,
+      "symbol": "UUID.stringLength",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UUID.swift",
+      "line": 15,
+      "symbol": "UUID.unformattedStringLength",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UUID.swift",
+      "line": 52,
+      "symbol": "UUID.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/coleman/Developer/Bluetooth/Sources/UUID.swift",
+      "line": 59,
+      "symbol": "UUID.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/coleman/Developer/Bluetooth"
+}
