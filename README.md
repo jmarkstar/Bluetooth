@@ -1,35 +1,13 @@
-# Bluetooth `gh-pages`
+# Bluetooth
+[![Build Status](https://travis-ci.org/PureSwift/Bluetooth.svg?branch=master)](https://travis-ci.org/PureSwift/Bluetooth)
 
-## Documentation
+Pure Swift Bluetooth Definitions
 
-[Docs](https://github.com/PureSwift/Bluetooth.git) generated with [jazzy](https://github.com/realm/jazzy). Hosted by [GitHub Pages](https://pages.github.com).
+# See Also
 
-## Setup
-
-The `gh-pages` branch includes `master` as a [git submodule](http://git-scm.com/book/en/v2/Git-Tools-Submodules) in order to generate docs.
-
-````bash
-$ git clone https://github.com/PureSwift/Bluetooth.git
-$ cd BluetoothLinux/
-$ git checkout gh-pages
-$ git submodule init
-$ git submodule update
-````
-
-## Generate
-
-````bash
-$ ./build_docs.sh
-````
-
-## Preview
-
-````bash
-$ open index.html -a Safari
-````
-
-## Publish
-
-````bash
-$ ./publish_docs.sh
-````
+- [BluetoothLinux](https://github.com/PureSwift/BluetoothLinux) - Pure Swift Linux Bluetooth Stack
+- [GATT](https://github.com/PureSwift/GATT) - Bluetooth Generic Attribute Profile (GATT) for Swift
+- [SwiftFoundation](https://github.com/PureSwift/SwiftFoundation) - Cross-Platform, Protocol-Oriented Programming base library to complement the Swift Standard Library.
+- [Cacao](https://github.com/PureSwift/Cacao) - Pure Swift Cross-platform UIKit
+- [Silica](https://github.com/PureSwift/Silica) - Pure Swift CoreGraphics (Quartz2D) implementation
+- [Predicate](https://github.com/PureSwift/Predicate) - Pure Swift Predicate implementation 
