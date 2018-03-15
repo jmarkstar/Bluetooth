@@ -415,12 +415,45 @@
         <section class="section">
           <div class="section-content">
             
-            <h1 id='bluetooth' class='heading'>Bluetooth</h1>
+            <p align="center">
+ <img src="https://github.com/PureSwift/Bluetooth/raw/master/Assets/PureSwiftBluetooth.png" alt="Bluetooth" style="width: 400px;"/>
+</p>
 
-<p><a href="https://travis-ci.org/PureSwift/Bluetooth"><img src="https://travis-ci.org/PureSwift/Bluetooth.svg?branch=master" alt="Build Status"></a></p>
+<p><a href="https://swift.org"><img src="https://img.shields.io/badge/Swift-3.2-orange.svg?style=flat" alt="Swift"></a>
+<a href="https://swift.org"><img src="https://img.shields.io/badge/platform-osx%20%7C%20ios%20%7C%20watchos%20%7C%20tvos%20%7C%20linux-lightgrey.svg" alt="Platform"></a>
+<a href="https://github.com/PureSwift/SwiftFoundation/releases"><img src="https://img.shields.io/github/release/PureSwift/Bluetooth.svg" alt="Release"></a>
+<a href="https://travis-ci.org/PureSwift/Bluetooth"><img src="https://travis-ci.org/PureSwift/Bluetooth.svg?branch=master" alt="Build Status"></a>
+<a href="https://tldrlegal.com/license/mit-license"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat" alt="License"></a>
+<a href="https://codebeat.co/projects/github-com-pureswift-bluetooth-master"><img src="https://codebeat.co/badges/3eaf4fc3-6514-4f2d-83d5-ffd879f319d2" alt="CodeBeat"></a></p>
 
-<p>Pure Swift Bluetooth Definitions</p>
-<h1 id='see-also' class='heading'>See Also</h1>
+<p><a href="https://github.com/apple/swift-package-manager"><img src="https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat" alt="SPM compatible"></a>
+<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible"></a></p>
+
+<p>Pure Swift Bluetooth Definitions.</p>
+<h2 id='usage' class='heading'>Usage</h2>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Bluetooth</span>
+
+<span class="k">let</span> <span class="nv">uuid128bit</span> <span class="o">=</span> <span class="kt">BluetoothUUID</span><span class="p">(</span><span class="nv">rawValue</span><span class="p">:</span> <span class="s">"60F14FE2-F972-11E5-B84F-23E070D5A8C7"</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">uuid16bit</span> <span class="o">=</span> <span class="kt">BluetoothUUID</span><span class="p">(</span><span class="nv">rawValue</span><span class="p">:</span> <span class="s">"FEA9"</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">address</span> <span class="o">=</span> <span class="kt">Address</span><span class="p">(</span><span class="nv">rawValue</span><span class="p">:</span> <span class="s">"00:1A:7D:DA:71:13"</span><span class="p">)</span>
+</code></pre>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">PackageDescription</span>
+
+<span class="k">let</span> <span class="nv">package</span> <span class="o">=</span> <span class="kt">Package</span><span class="p">(</span>
+    <span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+        <span class="o">.</span><span class="kt">Package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/PureSwift/Bluetooth.git"</span><span class="p">,</span> <span class="nv">majorVersion</span><span class="p">:</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="p">]</span>
+<span class="p">)</span>
+</code></pre>
+<h3 id='carthage' class='heading'>Carthage</h3>
+<pre class="highlight plaintext"><code>github "PureSwift/Bluetooth"
+</code></pre>
+<h1 id='documentation' class='heading'>Documentation</h1>
+
+<p>Read the documentation <a href="http://pureswift.github.io/Bluetooth/docs/">here</a>. For more information, see the <a href="https://github.com/PureSwift/Bluetooth/tree/gh-pages">gh-pages</a> branch.</p>
+<h2 id='see-also' class='heading'>See Also</h2>
 
 <ul>
 <li><a href="https://github.com/PureSwift/BluetoothLinux">BluetoothLinux</a> - Pure Swift Linux Bluetooth Stack</li>
@@ -430,6 +463,9 @@
 <li><a href="https://github.com/PureSwift/Silica">Silica</a> - Pure Swift CoreGraphics (Quartz2D) implementation</li>
 <li><a href="https://github.com/PureSwift/Predicate">Predicate</a> - Pure Swift Predicate implementation</li>
 </ul>
+<h2 id='license' class='heading'>License</h2>
+
+<p><strong>Bluetooth</strong> is released under the MIT license. See LICENSE for details.</p>
 
           </div>
         </section>
