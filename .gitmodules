@@ -1,0 +1,3 @@
+[submodule "Bluetooth"]
+	path = Bluetooth
+	url = https://github.com/PureSwift/Bluetooth.git
