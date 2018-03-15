@@ -8,4 +8,4 @@ git submodule update --remote
 cd Bluetooth
 cp .jazzy.yaml ../
 cd ../
-jazzy --source-directory BluetoothLinux/
+jazzy --source-directory Bluetooth
